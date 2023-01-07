@@ -255,7 +255,7 @@ export default function Home() {
         <div className="relative grid grid-cols-4 gap-x-4 md:grid-cols-8 lg:grid-cols-12 lg:gap-x-6 mx-auto max-w-7xl lg: mb-24 h-auto pt-24 lg:min-h-[40rem] lg:pb-12 lg:mb-64">
           <div className="flex items-center justify-center mb-12 col-span-full lg:mb-0 lg:col-span-7 lg:col-start-6 lg:-mt-24 lg:-mr-5vw lg:px-0">
             <Image
-              className="object-contain w-full h-auto max-h-75vh"
+              className="object-contain w-full h-auto px-16 max-h-75vh"
               alt="Illustration of Kody the Koala standing on a snowboard surrounded by green leaves, a battery, two skies, a one-wheel, a solar panel, and a recycle logo."
               src={hero}
               priority
@@ -280,7 +280,7 @@ export default function Home() {
                     href="/blog"
                   >
                     <div className="absolute inset-0 transition transform rounded-full opacity-100 focus-ring disabled:opacity-50 bg-inverse bg-slate-800 dark:bg-white"></div>
-                    <div className="relative flex items-center justify-center w-full h-full py-6 space-x-5 text-white whitespace-nowrap text-inverse dark:text-black px-11">
+                    <div className="relative flex items-center justify-center w-full h-full px-12 py-4 space-x-5 text-white whitespace-nowrap text-inverse dark:text-black">
                       Read the blog
                     </div>
                   </a>
@@ -289,7 +289,7 @@ export default function Home() {
                     href="/courses"
                   >
                     <div className="absolute inset-0 transition transform border-2 rounded-full opacity-100 focus-ring disabled:opacity-50 border-secondary bg-primary group-hover:border-transparent group-focus:border-transparent"></div>
-                    <div className="relative flex items-center justify-center w-full h-full py-6 space-x-5 whitespace-nowrap text-primary dark:text-white px-11">
+                    <div className="relative flex items-center justify-center w-full h-full px-12 py-4 space-x-5 whitespace-nowrap text-primary dark:text-white">
                       Take a course
                     </div>
                   </a>
@@ -298,7 +298,7 @@ export default function Home() {
             </div>
             <div className="hidden pt-12 lg:block" style={{ opacity: 1 }}>
               <a
-                className="inline-flex items-center text-lg font-medium text-left transition cursor-pointer text-primary focus:outline-none"
+                className="inline-flex items-center text-lg font-medium text-left transition-colors cursor-pointer text-primary focus:outline-none group"
                 href="/#intro"
               >
                 <div className="relative inline-flex items-center justify-center flex-none p-1 h-14 w-14">
@@ -308,45 +308,49 @@ export default function Home() {
                         stroke="currentColor"
                         strokeWidth="2"
                         fill="transparent"
-                        r="28"
+                        r="18"
                         cx="30"
                         cy="30"
                       ></circle>
                       <circle
-                        className="text-primary"
+                        className="group-hover:dark:text-gray-200 text-primary"
                         stroke="currentColor"
                         strokeWidth="2"
                         fill="transparent"
-                        r="28"
+                        r="18"
                         cx="30"
                         cy="30"
-                        style={{
-                          strokeDasharray: "175.929, 175.929",
-                          transform: "rotate(-90deg)",
-                          transformOrigin: "30px 30px",
-                        }}
+                        // style={{
+                        //   strokeDasharray: "175.929, 175.929",
+                        //   transform: "rotate(-90deg)",
+                        //   transformOrigin: "30px 30px",
+                        // }}
                       ></circle>
                     </svg>
                   </div>
-                  <span style={{ transform: "none" }}>
-                    <svg
-                      className="transform rotate-0 dark:text-white"
-                      width="32"
-                      height="32"
-                      viewBox="0 0 32 32"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M15.101 5.5V23.1094L9.40108 17.4095L8.14807 18.6619L15.9862 26.5L23.852 18.6342L22.5996 17.3817L16.8725 23.1094V5.5H15.101Z"
-                        fill="currentColor"
-                      ></path>
-                    </svg>
-                  </span>
+                  {/* <span style={{ transform: "none" }}> */}
+                  {/* <span style={{transform: "translateY(12px) translateZ(0px)"}}>
+                      
+                    </span> */}
+                  <svg
+                    // className="transform rotate-0 animate-bounce hover:translate-y-1 dark:text-white"
+                    className="mt-3 w-7 h-7 animate-bounce dark:text-gray-400 group-hover:dark:text-gray-200"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M15.101 5.5V23.1094L9.40108 17.4095L8.14807 18.6619L15.9862 26.5L23.852 18.6342L22.5996 17.3817L16.8725 23.1094V5.5H15.101Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                  {/* </span> */}
                 </div>
-                <span className="ml-8 text-xl font-medium dark:text-white">
+                <span className="ml-4 text-xl font-medium dark:text-gray-400 group-hover:dark:text-gray-200">
                   Learn more about Kent
                 </span>
               </a>

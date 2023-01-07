@@ -78,9 +78,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="">
       <head />
-      {/* <body className="px-16 transition duration-500 bg-white lg:px-24 dark:bg-gray-900"> */}
       <body
-        className={`${matter.variable} font-sans px-16 transition duration-500 bg-white lg:px-24 dark:bg-gray-900`}
+        className={`${matter.variable} font-sans px-4 sm:px-8 bg-white lg:px-24 dark:bg-gray-900`}
       >
         {children}
       </body>
