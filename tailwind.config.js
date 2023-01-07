@@ -1,3 +1,6 @@
+const { fontFamily } = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   // darkMode: "class",
@@ -7,7 +10,33 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
+      black: colors.black,
+      white: colors.white,
+      gray: {
+        100: "#f7f7f7",
+        200: "#e6e9ee",
+        300: "#dde0e4",
+        400: "#818890",
+        500: "#535661",
+        600: "#4b4c53",
+        700: "#3a3d4a",
+        800: "#2e3039",
+        900: "#1f2028",
+      },
+      red: colors.red,
+      blue: colors.blue,
+      yellow: colors.yellow,
+    },
+    extend: {
+      fontFamily: {
+        // sans: ["var(--font-varela)", ...fontFamily.sans],
+        // sans: ["var(--font-montserrat)", ...fontFamily.sans],
+        sans: ["var(--font-matter)", ...fontFamily.sans],
+      },
+    },
   },
   plugins: [],
 };
