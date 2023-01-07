@@ -1,3 +1,5 @@
+// "use client";
+
 import "../styles/globals.css";
 import localFont from "@next/font/local";
 
@@ -76,7 +78,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="">
+    // <ThemeProvider>
+    <html lang="en">
       <head />
       <body
         className={`${matter.variable} font-sans px-4 sm:px-8 bg-white lg:px-24 dark:bg-gray-900`}
@@ -84,5 +87,6 @@ export default function RootLayout({
         {children}
       </body>
     </html>
+    // </ThemeProvider>
   );
 }
