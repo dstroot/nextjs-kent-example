@@ -4,9 +4,13 @@ import Image from "next/image";
 import profile from "../public/img/kody_profile_white.webp";
 import hero from "../public/img/kody-flying_red.webp";
 
+//components
+import { NavBar } from "../components/NavBar";
+
 export default function Home() {
   return (
     <>
+      <NavBar />
       <header className="px-5vw py-9 lg:py-12">
         <nav className="flex items-center justify-between mx-auto text-primary max-w-8xl">
           <div className="flex justify-center gap-4 align-middle">
