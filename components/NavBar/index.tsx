@@ -17,12 +17,12 @@ export function NavBar() {
       <header className="py-9 lg:py-12">
         <nav className="flex items-center justify-between mx-auto">
           <div className="flex justify-center gap-4 align-middle">
-            <Link
+            <a
               className="block text-2xl font-medium transition text-primary underlined whitespace-nowrap focus:outline-none dark:text-white"
-              href="/"
+              href="https://kentcdodds.com/"
             >
               Kent C. Dodds
-            </Link>
+            </a>
           </div>
           <ul className="hidden lg:flex">
             {menu.map((item, index) => {
@@ -31,7 +31,7 @@ export function NavBar() {
                   <NavLink
                     href={item.path}
                     exact
-                    className="block text-lg font-medium underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none dark:text-white"
+                    className="block text-lg font-medium text-gray-500 underlined whitespace-nowrap dark:text-gray-400 hover:text-team-current focus:text-team-current focus:outline-none"
                   >
                     {item.name}
                   </NavLink>
@@ -42,7 +42,7 @@ export function NavBar() {
           <div className="flex items-center justify-center">
             <div className="block lg:hidden">
               <Menu>
-                <Menu.Button className="inline-flex items-center justify-center p-1 transition focus:border-primary hover:border-primary h-14 w-14 focus:outline-none">
+                <Menu.Button className="inline-flex items-center justify-center p-1 text-gray-500 transition focus:border-primary hover:border-primary h-14 w-14 focus:outline-none dark:text-gray-400">
                   {({ open }) => (
                     <>
                       {!open ? (
@@ -142,7 +142,7 @@ export function NavBar() {
                       return (
                         <Menu.Item
                           key={`${index}`}
-                          className="px-6 py-8 text-right bg-white border-b border-gray-200 hover:bg-secondary focus:bg-secondary text-primary hover:text-team-current dark:border-gray-600"
+                          className="px-6 py-8 text-xl text-right text-gray-500 bg-white border-b border-gray-200 dark:bg-gray-900 hover:bg-secondary focus:bg-secondary text-primary hover:text-team-current dark:border-gray-600 dark:text-gray-400"
                         >
                           <NavLink
                             href={item.path}
