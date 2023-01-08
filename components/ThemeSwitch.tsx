@@ -26,7 +26,7 @@ export const ThemeSwitch = () => {
 
   return (
     <>
-      <div className="w-24 text-center bg-gray-300 rounded-full">
+      <div className="w-24 mx-auto text-center bg-gray-300 rounded-full">
         <button
           id="light"
           className={cn(

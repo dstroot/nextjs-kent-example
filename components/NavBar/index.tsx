@@ -82,7 +82,7 @@ export function NavBar() {
                       );
                     })}
                     <Menu.Item>
-                      <div className="py-8 bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-600">
+                      <div className="w-full py-8 bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-600">
                         <ThemeSwitch />
                       </div>
                     </Menu.Item>
