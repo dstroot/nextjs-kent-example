@@ -6,6 +6,7 @@ import { LazyMotion, domAnimation } from "framer-motion";
 
 // components
 import { NavBar } from "../components/NavBar";
+import { Providers } from "./Providers";
 
 /*
 Tailwind font weights:
@@ -87,14 +88,16 @@ export default function RootLayout({
       <body
         className={`${matter.variable} font-sans bg-white dark:bg-gray-900`}
       >
-        <div className="container px-4 mx-auto md:px-8 lg:px-16">
-          <div className="flex flex-col min-h-screen text-gray-700 dark:text-gray-100">
-            <LazyMotion features={domAnimation}>
-              <NavBar />
-              <main className="flex-grow">{children}</main>
-            </LazyMotion>
+        <Providers>
+          <div className="container px-4 mx-auto md:px-8 lg:px-16">
+            <div className="flex flex-col min-h-screen text-gray-700 dark:text-gray-100">
+              <LazyMotion features={domAnimation}>
+                <NavBar />
+                <main className="flex-grow">{children}</main>
+              </LazyMotion>
+            </div>
           </div>
-        </div>
+        </Providers>
       </body>
     </html>
   );

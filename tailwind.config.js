@@ -3,7 +3,7 @@ const colors = require("tailwindcss/colors");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // darkMode: "class",
+  darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -33,8 +33,6 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        // sans: ["var(--font-varela)", ...fontFamily.sans],
-        // sans: ["var(--font-montserrat)", ...fontFamily.sans],
         sans: ["var(--font-matter)", ...fontFamily.sans],
       },
     },
