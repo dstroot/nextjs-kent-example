@@ -33,13 +33,13 @@ export default function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.25, duration: 0.5 }}
               >
-                <h2 className="text-3xl leading-tight text-slate-700 md:text-4xl dark:text-gray-100">
+                <h2 className="text-xl leading-tight sm:text-3xl text-slate-700 md:text-4xl dark:text-gray-100">
                   Helping people make the world a better place through quality
                   software.
                 </h2>
               </m.div>
               <m.div
-                className="flex flex-col space-y-4 mt-14"
+                className="flex flex-col mt-6 space-y-4 sm:mt-14"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.5 }}

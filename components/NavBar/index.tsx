@@ -48,7 +48,7 @@ export function NavBar() {
           <div className="flex items-center justify-center">
             <div className="block lg:hidden">
               <Menu as={Fragment}>
-                <Menu.Button className="inline-flex items-center justify-center p-1 text-gray-500 transition focus:border-primary hover:border-primary h-14 w-14 focus:outline-none dark:text-gray-400">
+                <Menu.Button className="inline-flex items-center justify-center p-1 text-gray-500 transition focus:border-primary hover:border-primary h-14 w-14 focus:outline-none dark:text-gray-200">
                   {/* Here we are using motion to animate the hamburger menu */}
                   {({ open }) => (
                     <m.div animate={open ? "open" : "closed"}>
