@@ -1,16 +1,20 @@
 "use client";
 
-import Link from "next/link";
+// import Link from "next/link";
 import { menu } from "./menu";
 import { NavLink } from "./navlink";
 import { Fragment, useState } from "react";
 import { Dialog, Transition, Menu } from "@headlessui/react";
-import Image from "next/image";
+// import Image from "next/image";
+import { HamburgerToggle } from "../HamburgerToggle";
 
-import profile from "../../public/img/kody_profile_white.webp";
+import { m } from "framer-motion";
+
+// import profile from "../../public/img/kody_profile_white.webp";
 
 export function NavBar() {
-  let [isOpen, setIsOpen] = useState(false); // state of mobile menu
+  // let [isOpen, setIsOpen] = useState(false); // state of mobile menu
+  // const [isOpen, toggleOpen] = useCycle(false, true);
 
   return (
     <>
@@ -43,90 +47,11 @@ export function NavBar() {
             <div className="block lg:hidden">
               <Menu>
                 <Menu.Button className="inline-flex items-center justify-center p-1 text-gray-500 transition focus:border-primary hover:border-primary h-14 w-14 focus:outline-none dark:text-gray-400">
+                  {/* Here we are using motion to animate the hamburger menu */}
                   {({ open }) => (
-                    <>
-                      {!open ? (
-                        <svg
-                          width="32"
-                          height="32"
-                          viewBox="0 0 32 32"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <rect
-                            x="6"
-                            y="9"
-                            width="20"
-                            height="2"
-                            rx="1"
-                            fill="currentColor"
-                            // style={{ transform: "none", transformOrigin: "0px 0px" }}
-                          ></rect>
-                          <rect
-                            x="6"
-                            y="15"
-                            width="20"
-                            height="2"
-                            rx="1"
-                            fill="currentColor"
-                            opacity="1"
-                          ></rect>
-                          <rect
-                            x="6"
-                            y="21"
-                            width="20"
-                            height="2"
-                            rx="1"
-                            fill="currentColor"
-                            // style={{ transform: "none", transformOrigin: "0px 0px" }}
-                          ></rect>
-                        </svg>
-                      ) : (
-                        <svg
-                          width="32"
-                          height="32"
-                          viewBox="0 0 32 32"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <rect
-                            x="6"
-                            y="9"
-                            width="20"
-                            height="2"
-                            rx="1"
-                            fill="currentColor"
-                            style={{
-                              transform: "translateY(7px) rotate(45deg)",
-                              transformOrigin: "16px 10px",
-                            }}
-                            // transform-origin="16px 10px"
-                          ></rect>
-                          <rect
-                            x="6"
-                            y="15"
-                            width="20"
-                            height="2"
-                            rx="1"
-                            fill="currentColor"
-                            opacity="0"
-                          ></rect>
-                          <rect
-                            x="6"
-                            y="21"
-                            width="20"
-                            height="2"
-                            rx="1"
-                            fill="currentColor"
-                            style={{
-                              transform: "translateY(-5px) rotate(-45deg)",
-                              transformOrigin: "16px 22px",
-                            }}
-                            // transform-origin="16px 22px"
-                          ></rect>
-                        </svg>
-                      )}
-                    </>
+                    <m.div animate={open ? "open" : "closed"}>
+                      <HamburgerToggle />
+                    </m.div>
                   )}
                 </Menu.Button>
                 <div
@@ -142,13 +67,13 @@ export function NavBar() {
                       return (
                         <Menu.Item
                           key={`${index}`}
-                          className="px-6 py-8 text-xl text-right text-gray-500 bg-white border-b border-gray-200 dark:bg-gray-900 hover:bg-secondary focus:bg-secondary text-primary hover:text-team-current dark:border-gray-600 dark:text-gray-400"
+                          className="py-8 pr-16 text-xl text-right text-gray-500 bg-white border-b border-gray-200 dark:bg-gray-900 hover:bg-secondary focus:bg-secondary text-primary hover:text-team-current dark:border-gray-600 dark:text-gray-400"
                         >
                           <NavLink
                             href={item.path}
                             exact
                             className=""
-                            onClick={() => setIsOpen(false)}
+                            // onClick={() => setIsOpen(false)}
                           >
                             {item.name}
                           </NavLink>

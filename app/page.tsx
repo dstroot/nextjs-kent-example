@@ -15,7 +15,6 @@ import hero from "../public/img/kody-flying_red.webp";
 
 //components
 import { NavBar } from "../components/NavBar";
-import { HamburgerToggle } from "../components/HamburgerToggle";
 
 export default function Home() {
   const [isOpen, toggleOpen] = useCycle(false, true);
@@ -24,16 +23,16 @@ export default function Home() {
     <>
       <LazyMotion features={domAnimation}>
         <NavBar />
-        <m.nav animate={isOpen ? "open" : "closed"} className="bg-white">
+        {/* <m.nav animate={isOpen ? "open" : "closed"}>
           <HamburgerToggle toggle={() => toggleOpen()} />
-        </m.nav>
+        </m.nav> */}
 
         <header className="relative mx-10vw">
           <div className="relative grid grid-cols-4 gap-x-4 md:grid-cols-8 lg:grid-cols-12 lg:gap-x-6 mx-auto max-w-7xl lg: mb-24 h-auto pt-24 lg:min-h-[40rem] lg:pb-12 lg:mb-64">
             <div className="flex items-center justify-center mb-12 col-span-full lg:mb-0 lg:col-span-7 lg:col-start-6 lg:-mt-24 lg:-mr-5vw lg:px-0">
               {/* fade in and shrink */}
               <m.div
-                initial={{ opacity: 0, scale: 1.2 }}
+                initial={{ opacity: 0, scale: 1.4 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0, duration: 0.5 }}
               >
