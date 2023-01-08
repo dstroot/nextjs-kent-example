@@ -52,21 +52,16 @@ export function NavBar() {
             <div className="block lg:hidden">
               <Menu as={Fragment}>
                 <Menu.Button className="inline-flex items-center justify-center h-14 w-14 focus:outline-none">
-                  {/* Here we are using motion to animate the hamburger menu */}
+                  {/* 
+                    Here we are passing the menu open status to motion, and 
+                    using motion to animate the hamburger menu. Cool!
+                  */}
                   {({ open }) => (
                     <m.div animate={open ? "open" : "closed"}>
                       <HamburgerToggle />
                     </m.div>
                   )}
                 </Menu.Button>
-                {/* <div
-                  className="z-50"
-                  style={{
-                    position: "absolute",
-                    display: "block",
-                    inset: "calc(92px + 2.25rem) 0px 0px",
-                  }}
-                > */}
                 <Menu.Items>
                   <div
                     className="absolute z-50 block"
@@ -96,7 +91,6 @@ export function NavBar() {
                     </div>
                   </div>
                 </Menu.Items>
-                {/* </div> */}
               </Menu>
             </div>
 
