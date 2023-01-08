@@ -9,9 +9,9 @@ import hero from "../public/img/kody-flying_red.webp";
 export default function Home() {
   return (
     <>
-      <header className="relative mx-12">
-        <div className="relative grid grid-cols-4 gap-x-4 md:grid-cols-8 lg:grid-cols-12 lg:gap-x-6 mx-auto max-w-7xl lg: mb-24 h-auto pt-24 lg:min-h-[40rem] lg:pb-12 lg:mb-64">
-          <div className="flex items-center justify-center col-span-full lg:col-span-7 lg:col-start-6">
+      <header className="">
+        <div className="grid grid-cols-4 gap-x-4 md:grid-cols-8 lg:grid-cols-12 lg:gap-x-6 mb-24 lg:min-h-[40rem] lg:pb-12 lg:mb-64">
+          <div className="flex items-center col-span-full lg:col-span-7 lg:col-start-6">
             {/* fade in and shrink */}
             <m.div
               initial={{ opacity: 0, scale: 1.4 }}
@@ -27,7 +27,7 @@ export default function Home() {
             </m.div>
           </div>
           <div className="pt-6 col-span-full lg:col-start-1 lg:row-start-1 lg:flex lg:h-full lg:flex-col lg:col-span-5">
-            <div className="flex flex-col flex-auto">
+            <div className="flex flex-col justify-center flex-auto">
               <m.div
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}

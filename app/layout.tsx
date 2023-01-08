@@ -82,26 +82,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    // <ThemeProvider>
     <html lang="en">
       <head />
-      {/* <body
-        className={`${matter.variable} font-sans px-4 sm:px-8 bg-white lg:px-24 dark:bg-gray-900`}
-      >
-        {children}
-      </body> */}
-
       <body
-        className={`${matter.variable} font-sans text-gray-700 dark:text-gray-100 bg-white dark:bg-gray-900`}
+        className={`${matter.variable} font-sans bg-white dark:bg-gray-900`}
       >
-        <div className="flex flex-col min-h-screen">
-          <LazyMotion features={domAnimation}>
-            <NavBar />
-            <main className="container flex-grow px-4 mx-auto">{children}</main>
-          </LazyMotion>
+        <div className="container px-4 mx-auto md:px-8 lg:px-16">
+          <div className="flex flex-col min-h-screen text-gray-700 dark:text-gray-100">
+            <LazyMotion features={domAnimation}>
+              <NavBar />
+              <main className="flex-grow">{children}</main>
+            </LazyMotion>
+          </div>
         </div>
       </body>
     </html>
-    // </ThemeProvider>
   );
 }

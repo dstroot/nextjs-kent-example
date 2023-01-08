@@ -1,33 +1,31 @@
 "use client";
 
 // import Link from "next/link";
+import { m } from "framer-motion";
 import { menu } from "./menu";
+import { Menu } from "@headlessui/react";
 import { NavLink } from "./navlink";
-import { Fragment, useState } from "react";
-import { Dialog, Transition, Menu } from "@headlessui/react";
-// import Image from "next/image";
+import { Fragment } from "react";
 import { HamburgerToggle } from "../HamburgerToggle";
 
-import { m } from "framer-motion";
-
-// import profile from "../../public/img/kody_profile_white.webp";
-
 export function NavBar() {
-  // let [isOpen, setIsOpen] = useState(false); // state of mobile menu
-  // const [isOpen, toggleOpen] = useCycle(false, true);
-
   return (
     <>
-      <header className="mx-12 py-9 lg:py-12">
+      <header className="py-9 lg:py-12">
         <nav className="flex items-center justify-between mx-auto">
-          <div className="flex justify-center gap-4 align-middle">
-            <a
-              className="block text-2xl font-medium transition text-primary underlined whitespace-nowrap focus:outline-none dark:text-white"
-              href="https://kentcdodds.com/"
-            >
-              Kent C. Dodds
-            </a>
-          </div>
+          {/*
+            Left Side 
+          */}
+          <a
+            className="block text-2xl font-medium transition text-primary underlined whitespace-nowrap focus:outline-none dark:text-white"
+            href="https://kentcdodds.com/"
+          >
+            Kent C. Dodds
+          </a>
+
+          {/*
+            Main Nav Section
+          */}
           <ul className="hidden lg:flex">
             {menu.map((item, index) => {
               return (
@@ -43,9 +41,13 @@ export function NavBar() {
               );
             })}
           </ul>
+
+          {/*
+            Mobile Menu
+          */}
           <div className="flex items-center justify-center">
             <div className="block lg:hidden">
-              <Menu>
+              <Menu as={Fragment}>
                 <Menu.Button className="inline-flex items-center justify-center p-1 text-gray-500 transition focus:border-primary hover:border-primary h-14 w-14 focus:outline-none dark:text-gray-400">
                   {/* Here we are using motion to animate the hamburger menu */}
                   {({ open }) => (
@@ -65,14 +67,11 @@ export function NavBar() {
                   <Menu.Items className="flex flex-col h-full pb-12 overflow-y-scroll border-t border-gray-200 bg-primary dark:border-gray-600">
                     {menu.map((item, index) => {
                       return (
-                        <Menu.Item
-                          key={`${index}`}
-                          className="py-8 pr-16 text-xl text-right text-gray-500 bg-white border-b border-gray-200 dark:bg-gray-900 hover:bg-secondary focus:bg-secondary text-primary hover:text-team-current dark:border-gray-600 dark:text-gray-400"
-                        >
+                        <Menu.Item key={`${index}`}>
                           <NavLink
                             href={item.path}
                             exact
-                            className=""
+                            className="py-8 pr-16 text-xl text-right text-gray-500 bg-white border-b border-gray-200 dark:bg-gray-900 hover:bg-secondary focus:bg-secondary text-primary hover:text-team-current dark:border-gray-600 dark:text-gray-400"
                             // onClick={() => setIsOpen(false)}
                           >
                             {item.name}
@@ -84,6 +83,10 @@ export function NavBar() {
                 </div>
               </Menu>
             </div>
+
+            {/*
+              Dark Mode Toggle
+            */}
             <div className="hidden noscript-hidden lg:block">
               <button className="inline-flex items-center justify-center p-1 overflow-hidden transition border-2 rounded-full border-secondary hover:border-primary focus:border-primary h-14 focus:outline-none w-14">
                 <div className="relative w-8 h-8">
@@ -180,86 +183,6 @@ export function NavBar() {
           </div>
         </nav>
       </header>
-
-      {/*
-        Pop over mobile menu
-      */}
-      {/* <Transition appear show={isOpen} as={Fragment}>
-        <Dialog
-          as="div"
-          className="relative z-10"
-          onClose={() => setIsOpen(false)}
-        >
-          <Transition.Child
-            as={Fragment}
-            enter="ease-out duration-300"
-            enterFrom="opacity-0"
-            enterTo="opacity-100"
-            leave="ease-in duration-200"
-            leaveFrom="opacity-100"
-            leaveTo="opacity-0"
-          >
-            <div className="fixed inset-0 bg-black/20 backdrop-blur-sm dark:bg-slate-900/80" />
-          </Transition.Child>
-
-          <Transition.Child
-            as={Fragment}
-            enter="ease-out duration-300"
-            enterFrom="opacity-0 scale-95"
-            enterTo="opacity-100 scale-100"
-            leave="ease-in duration-200"
-            leaveFrom="opacity-100 scale-100"
-            leaveTo="opacity-0 scale-95"
-          >
-            <Dialog.Panel className="fixed max-w-xs p-6 ml-4 text-xl font-semibold bg-white rounded-lg shadow-lg top-2 right-2 text-primary dark:bg-slate-800 dark:highlight-white/5">
-              <button
-                type="button"
-                onClick={() => setIsOpen(false)}
-                className="absolute flex items-center justify-center w-8 h-8 top-2 right-2 text-primary text-hover focus:outline-none"
-                tabIndex={0}
-              >
-                <span className="sr-only">Close navigation</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  className="w-6 h-6"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-              </button>
-              <ul className="mt-4 space-y-6">
-                {menu.map((item, index) => {
-                  return (
-                    <li key={`${index}`}>
-                      <NavLink
-                        href={item.path}
-                        exact
-                        className="px-8 text-hover"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        {item.name}
-                        {item.new ? (
-                          <span className="ml-2 font-medium text-xs leading-5 rounded-full px-2 py-0.5 text-new">
-                            New
-                          </span>
-                        ) : null}
-                      </NavLink>
-                      <div className="mt-5 border-b border-gray-300 dark:border-gray-500"></div>
-                    </li>
-                  );
-                })}
-              </ul>
-            </Dialog.Panel>
-          </Transition.Child>
-        </Dialog>
-      </Transition> */}
     </>
   );
 }
