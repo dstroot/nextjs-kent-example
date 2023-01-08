@@ -18,7 +18,7 @@ export function NavBar() {
 
   return (
     <>
-      <header className="py-9 lg:py-12">
+      <header className="mx-12 py-9 lg:py-12">
         <nav className="flex items-center justify-between mx-auto">
           <div className="flex justify-center gap-4 align-middle">
             <a

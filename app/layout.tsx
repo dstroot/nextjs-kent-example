@@ -1,7 +1,11 @@
-// "use client";
+"use client";
 
 import "../styles/globals.css";
 import localFont from "@next/font/local";
+import { LazyMotion, domAnimation } from "framer-motion";
+
+// components
+import { NavBar } from "../components/NavBar";
 
 /*
 Tailwind font weights:
@@ -81,10 +85,21 @@ export default function RootLayout({
     // <ThemeProvider>
     <html lang="en">
       <head />
-      <body
+      {/* <body
         className={`${matter.variable} font-sans px-4 sm:px-8 bg-white lg:px-24 dark:bg-gray-900`}
       >
         {children}
+      </body> */}
+
+      <body
+        className={`${matter.variable} font-sans text-gray-700 dark:text-gray-100 bg-white dark:bg-gray-900`}
+      >
+        <div className="flex flex-col min-h-screen">
+          <LazyMotion features={domAnimation}>
+            <NavBar />
+            <main className="container flex-grow px-4 mx-auto">{children}</main>
+          </LazyMotion>
+        </div>
       </body>
     </html>
     // </ThemeProvider>
