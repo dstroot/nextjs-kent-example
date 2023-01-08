@@ -51,7 +51,7 @@ export function NavBar() {
           <div className="flex items-center justify-center">
             <div className="block lg:hidden">
               <Menu as={Fragment}>
-                <Menu.Button className="inline-flex items-center justify-center p-1 text-gray-500 transition focus:border-primary hover:border-primary h-14 w-14 focus:outline-none dark:text-gray-200">
+                <Menu.Button className="inline-flex items-center justify-center h-14 w-14 focus:outline-none">
                   {/* Here we are using motion to animate the hamburger menu */}
                   {({ open }) => (
                     <m.div animate={open ? "open" : "closed"}>
@@ -59,35 +59,44 @@ export function NavBar() {
                     </m.div>
                   )}
                 </Menu.Button>
-                <div
+                {/* <div
                   className="z-50"
                   style={{
                     position: "absolute",
                     display: "block",
                     inset: "calc(92px + 2.25rem) 0px 0px",
                   }}
-                >
-                  <Menu.Items className="flex flex-col h-full pb-12 overflow-y-scroll border-t border-gray-200 bg-primary dark:border-gray-600">
-                    {menu.map((item, index) => {
-                      return (
-                        <Menu.Item key={`${index}`}>
-                          <NavLink
-                            href={item.path}
-                            exact
-                            className="py-8 pr-16 text-xl text-right text-gray-500 bg-white border-b border-gray-200 dark:bg-gray-900 hover:bg-secondary focus:bg-secondary text-primary hover:text-team-current dark:border-gray-600 dark:text-gray-400"
-                          >
-                            {item.name}
-                          </NavLink>
-                        </Menu.Item>
-                      );
-                    })}
-                    <Menu.Item>
-                      <div className="w-full py-8 bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-600">
-                        <ThemeSwitch />
-                      </div>
-                    </Menu.Item>
-                  </Menu.Items>
-                </div>
+                > */}
+                <Menu.Items>
+                  <div
+                    className="absolute z-50 block"
+                    style={{
+                      inset: "calc(92px + 2.25rem) 0px 0px",
+                    }}
+                  >
+                    <div className="flex flex-col h-full pb-12 overflow-y-scroll border-t border-gray-200 bg-primary dark:border-gray-600">
+                      {menu.map((item, index) => {
+                        return (
+                          <Menu.Item key={`${index}`}>
+                            <NavLink
+                              href={item.path}
+                              exact
+                              className="py-8 pr-16 text-xl text-right text-gray-500 bg-white border-b border-gray-200 dark:bg-gray-900 dark:hover:bg-gray-600 dark:hover:text-gray-200 hover:bg-gray-100 focus:bg-gray-200 text-primary hover:text-gray-900 dark:border-gray-600 dark:text-gray-400"
+                            >
+                              {item.name}
+                            </NavLink>
+                          </Menu.Item>
+                        );
+                      })}
+                      <Menu.Item>
+                        <div className="w-full py-8 bg-white border-b border-gray-200 dark:bg-gray-900 dark:border-gray-600">
+                          <ThemeSwitch />
+                        </div>
+                      </Menu.Item>
+                    </div>
+                  </div>
+                </Menu.Items>
+                {/* </div> */}
               </Menu>
             </div>
 
