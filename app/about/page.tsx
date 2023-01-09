@@ -1,5 +1,9 @@
-import Image from "next/image";
+"use client"; // necessary for motion to work
 
+import Image from "next/image";
+import { m } from "framer-motion";
+
+// images
 import snowboard from "../../public/img/snowboard.webp";
 
 export default function Index() {
@@ -8,22 +12,40 @@ export default function Index() {
       <header className="min-h-screen">
         <div className="mt-16 lg:flex lg:flex-row">
           <div className="order-last px-10 mb-16 basis-1/2">
-            <Image
-              alt="Illustration of a snowboard"
-              src={snowboard}
-              className="object-contain w-full h-auto max-h-50vh"
-              priority
-            />
+            {/* fade in and shrink */}
+            <m.div
+              initial={{ opacity: 0, scale: 1.4 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0, duration: 0.5 }}
+            >
+              <Image
+                alt="Illustration of a snowboard"
+                src={snowboard}
+                className="object-contain w-full h-auto max-h-50vh"
+                priority
+              />
+            </m.div>
           </div>
           <div className="basis-1/2">
-            <h2 className="text-3xl leading-tight text-gray-900 md:text-4xl dark:text-gray-100">
-              Hi, I'm Kent C. Dodds, I'm a full time educator.
-            </h2>
-
-            <p className="mt-3 text-xl leading-tight text-gray-400 md:text-2xl dark:text-slate-400">
-              I make the world a better place by teaching people like you how to
-              make quality software.
-            </p>
+            <m.div
+              initial={{ opacity: 0, y: 100 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.25, duration: 0.5 }}
+            >
+              <h2 className="text-3xl leading-tight text-gray-900 md:text-4xl dark:text-gray-100">
+                Hi, I'm Kent C. Dodds, I'm a full time educator.
+              </h2>
+            </m.div>
+            <m.div
+              initial={{ opacity: 0, y: 100 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5, duration: 0.5 }}
+            >
+              <p className="mt-3 text-xl leading-tight text-gray-400 md:text-2xl dark:text-slate-400">
+                I make the world a better place by teaching people like you how
+                to make quality software.
+              </p>
+            </m.div>
           </div>
         </div>
         <div className="hidden pt-12 lg:block">
