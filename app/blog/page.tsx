@@ -1,5 +1,12 @@
-export default function Index() {
+import { processMarkdown } from "../../lib/processMarkdown";
+
+export default async function Index() {
+  const data = await processMarkdown("test.md");
+
   return (
-    <h1 className="mb-12 text-6xl text-gray-900 dark:text-gray-100">Blog</h1>
+    <div
+      className="prose dark:prose-invert"
+      dangerouslySetInnerHTML={{ __html: data?.html }}
+    />
   );
 }
