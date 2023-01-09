@@ -5,25 +5,19 @@ export default function Index() {
         <h2 className="text-3xl leading-tight text-black md:text-4xl dark:text-white">
           What Kent uses
         </h2>
-        <p className="mt-2 text-lg font-medium text-gray-400 dark:text-slate-500">
-          The tools Kent C. Dodds uses
+        <p className="mt-2 text-xl font-medium text-gray-400 dark:text-slate-500">
+          The tools I use...
         </p>
       </header>
       <main className="mt-16">
-        <div className="prose dark:prose-invert prose-a:no-underline">
-          <h1 id="uses">
-            <a href="#uses">Uses</a>
-          </h1>
+        <div className="prose prose-lg dark:prose-invert prose-a:no-underline">
           <p>
-            I regularly get messages asking about the specifics of some piece of
-            software or hardware I use. When they do, I send them this page (And
-            you can too! The short URL for this page is{" "}
-            <a href="https://kcd.im/uses">
-              <code>kcd.im/uses</code>
-            </a>
-            ).
+            I regularly get asked about the specifics of some piece of software
+            or hardware I use. I send them here.
           </p>
-          <p>Full disclosure, many links on this site are affiliate links.</p>
+          <blockquote>
+            Full disclosure, many links on this site are affiliate links.
+          </blockquote>
           <h2 id="services">
             <a href="#services">Services</a>
           </h2>
