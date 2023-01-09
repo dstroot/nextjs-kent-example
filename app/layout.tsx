@@ -6,7 +6,7 @@ import { LazyMotion, domAnimation } from "framer-motion";
 
 // components
 import { NavBar } from "../components/NavBar";
-import { Providers } from "./Providers";
+import { Providers } from "../components/Providers";
 
 /*
 Tailwind font weights:
