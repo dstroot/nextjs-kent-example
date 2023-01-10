@@ -5,7 +5,7 @@ export default async function Index() {
 
   return (
     <div
-      className="prose dark:prose-invert"
+      className="prose prose-lg dark:prose-invert prose-a:no-underline"
       dangerouslySetInnerHTML={{ __html: data?.html }}
     />
   );

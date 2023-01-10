@@ -1,11 +1,14 @@
 import fs from "fs";
+import toc from "@jsdevtools/rehype-toc";
 import { join } from "path";
 import matter from "gray-matter";
 import { unified } from "unified";
+import rehypeSlug from "rehype-slug";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import rehypeFormat from "rehype-format";
 import rehypeStringify from "rehype-stringify";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
 
 export async function processMarkdown(name: string) {
   const fullPath = join(process.cwd(), "/app/blog/" + `${name}`);
@@ -17,8 +20,13 @@ export async function processMarkdown(name: string) {
   // process the content to HTML
   const html = await unified()
     .use(remarkParse)
+    // use remark plugins here v
     .use(remarkRehype)
+    // use rehype plugins here v
     .use(rehypeFormat)
+    .use(rehypeSlug)
+    .use(rehypeAutolinkHeadings, { behavior: "wrap" })
+    .use(toc)
     .use(rehypeStringify)
     .process(content);
 
