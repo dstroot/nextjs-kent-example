@@ -26,7 +26,7 @@ export const ThemeSwitch = () => {
 
   return (
     <>
-      <div className="flex justify-between mx-auto bg-gray-300 border-gray-900 dark:border-gray-300 border-2 rounded-full w-28">
+      <div className="flex justify-between mx-auto bg-gray-300 border-gray-500 dark:border-gray-300 border-2 rounded-full w-28">
         <button
           id="light"
           className={cn(
