@@ -69,7 +69,7 @@ export function NavBar() {
                       inset: "calc(92px + 2.25rem) 0px 0px",
                     }}
                   >
-                    <div className="flex flex-col h-full pb-12 overflow-y-scroll border-t border-gray-200 bg-primary dark:border-gray-600">
+                    <div className="flex flex-col h-full border-t border-gray-200 bg-primary dark:border-gray-600">
                       {menu.map((item, index) => {
                         return (
                           <Menu.Item key={`${index}`}>
