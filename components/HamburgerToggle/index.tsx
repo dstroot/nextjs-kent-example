@@ -2,16 +2,16 @@ import { m } from "framer-motion";
 
 const Path = (props: any) => (
   <m.path
-    fill="currentColor"
+    // fill="currentColor"
     strokeWidth="3"
-    stroke="hsl(0, 0%, 18%)"
+    // stroke="hsl(0, 0%, 18%)"
     strokeLinecap="round"
     {...props}
   />
 );
 
 export const HamburgerToggle = () => (
-  <svg width="23" height="23" viewBox="0 0 23 23">
+  <svg width="23" height="23" viewBox="0 0 23 23" className="stroke-gray-700 dark:stroke-gray-200">
     <Path
       variants={{
         closed: { d: "M 2 2.5 L 20 2.5" },
