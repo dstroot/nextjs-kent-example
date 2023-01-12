@@ -11,7 +11,7 @@ import rehypeStringify from "rehype-stringify";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 
 export async function processMarkdown(name: string) {
-  const fullPath = join(process.cwd(), "/app/blog/" + `${name}`);
+  const fullPath = join(process.cwd(), "/app" + `${name}`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
   // gray-matter separates the data in the YAML from the rest of the content
@@ -26,7 +26,7 @@ export async function processMarkdown(name: string) {
     .use(rehypeFormat)
     .use(rehypeSlug)
     .use(rehypeAutolinkHeadings, { behavior: "wrap" })
-    .use(toc)
+    // .use(toc)
     .use(rehypeStringify)
     .process(content);
 

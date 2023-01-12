@@ -1,11 +1,7 @@
----
-test: some data
----
+I regularly get asked about the specifics of some piece of software or
+hardware I use. I always send them here. This is the stuff I find useful!
 
-### Sections
-
-- [Services](#services)
-- [CLIs](#clis)
+> Full disclosure, many links on this site are affiliate links.
 
 ### Services
 
