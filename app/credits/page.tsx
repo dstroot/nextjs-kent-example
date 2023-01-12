@@ -15,7 +15,7 @@ const Index = () => {
     <>
       <header className="">
         <div className="mt-16 flex flex-col items-center lg:flex-row">
-          <div className="lg:order-last basis-1/3">
+          <div className="lg:order-last mb-12 lg:mb-0 basis-1/3">
             {/* fade in and shrink */}
             <m.div
               initial={{ opacity: 0, scale: 1.4 }}
@@ -53,7 +53,7 @@ const Index = () => {
           </div>
         </div>
       </header>
-      <div className="grid w-full grid-cols-1 gap-4 mt-12 mb-16 lg:grid-cols-2 xl:grid-cols-3">
+      <div className="grid w-full grid-cols-1 gap-4 mt-16 mb-16 lg:grid-cols-2 xl:grid-cols-3">
         {creditsData.map((person, index) => {
           return <Card person={person} key={index} />;
         })}
