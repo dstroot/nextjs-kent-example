@@ -15,7 +15,7 @@ const Index = () => {
     <>
       <header className="">
         <div className="mt-16 flex flex-col items-center lg:flex-row">
-          <div className="order-last basis-1/3">
+          <div className="lg:order-last basis-1/3">
             {/* fade in and shrink */}
             <m.div
               initial={{ opacity: 0, scale: 1.4 }}
