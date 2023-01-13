@@ -38,7 +38,7 @@ export const Card = ({ person }: { person: Person }) => {
           {person.description}
         </p>
       </div>
-      <div className="flex space-x-2">
+      <div className="flex space-x-4">
         {person.social
           ? person.social.map((service, index) => (
               <a
@@ -51,7 +51,6 @@ export const Card = ({ person }: { person: Person }) => {
             ))
           : null}
       </div>
-      <div className="flex flex-none space-x-4 text-secondary"></div>
     </div>
   );
 };

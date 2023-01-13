@@ -51,7 +51,7 @@ export default async function Index() {
       </div>
 
       <div
-        className="mt-16 prose dark:prose-invert prose-a:no-underline"
+        className="mt-16 prose max-w-none dark:prose-invert prose-a:no-underline"
         dangerouslySetInnerHTML={{ __html: data?.html }}
       />
     </>
