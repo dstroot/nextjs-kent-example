@@ -2,7 +2,7 @@
 
 // import Link from "next/link";
 import { m } from "framer-motion";
-import { menu } from "./menu";
+import { menu } from "../../config/config";
 import { Menu } from "@headlessui/react";
 import { NavLink } from "./navlink";
 import { Fragment } from "react";

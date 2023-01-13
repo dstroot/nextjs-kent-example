@@ -2,11 +2,11 @@
 
 import "../styles/globals.css";
 import localFont from "@next/font/local";
+import { ThemeProvider } from "next-themes";
 import { LazyMotion, domAnimation } from "framer-motion";
 
 // components
 import { NavBar } from "../components/NavBar";
-import { Providers } from "../components/Providers";
 
 /*
 Tailwind font weights:
@@ -76,6 +76,11 @@ const matter = localFont({
 
   variable: "--font-matter",
 });
+
+// A provider is necessary to use ThemeProvider in the app directory
+const Providers = ({ children }: { children: React.ReactNode }) => {
+  return <ThemeProvider attribute="class">{children}</ThemeProvider>;
+};
 
 export default function RootLayout({
   children,
