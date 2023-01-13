@@ -1,0 +1,26 @@
+import { randomNumberBetween } from "./other";
+
+export function first(array: Array<number | string | Object>, n = 1) {
+  if (n === 1) return array[0];
+  return array.filter((_, index) => index < n);
+}
+
+export function last(array: Array<number | string | Object>, n = 1) {
+  if (n === 1) return array[array.length - 1];
+  return array.filter((_, index) => array.length - index <= n);
+}
+
+export function sample(array: Array<number | string | Object>) {
+  return array[randomNumberBetween(0, array.length - 1)];
+}
+
+export function pluck(array: Array<number | string | Object>, key: any) {
+  return array.map((element: any) => element[key]);
+}
+
+export function groupBy(array: Array<number | string | Object>, key: any) {
+  return array.reduce((group: Object, element: any) => {
+    const keyValue: any = element[key];
+    return { ...group, [keyValue]: [...(group[keyValue] ?? []), element] };
+  }, {});
+}
