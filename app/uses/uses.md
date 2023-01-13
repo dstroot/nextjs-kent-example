@@ -12,15 +12,15 @@
 - [Cloudinary](https://kcd.im/cloudinary) - Fantastic image hosting
 - [GitHub](https://github.com) - Where I host my code. I also run CI/CD pipelines via GitHub Actions.
 - [Sticker Mule](https://kcd.im/stickermule) - How I get a bunch of stickers of my OSS projects etc. printed for myself that I can hand out.
-- [iwantmyname.com](https://iwantmyname.com) - Where I buy all my domain names.
+- [iwantmyname.com](https://iwantmyname.com) - Where I buy some domain names.
 - [Calendly](https://calendly.com) - For: "Grab a time whenever" link with consulting fees built-in.
 - [Cron](https://cron.com) - My calendar app and it allows me to share my availability with specific blocks of time.
 
 ### Tech
 
 - [React](https://reactjs.org/) - The most widely used frontend framework in the world
-- [Remix](https://remix.run) - The best framework to build a web app
-- [Prisma](https://www.prisma.io/) - A fantastic ORM for Node.js (I use it with Postgres/SQLite hosted on Fly.io).
+- [Nextjs](https://nextjs.org/) - My current favorite framework to build a web app
+- [Prisma](https://www.prisma.io/) - A fantastic ORM for Node.js.
 - [TypeScript](https://www.typescriptlang.org/) - I can't imagine building JavaScript projects without TypeScript.
 - [Testing Library](https://testing-library.com/) - A great testing library for anything that interacts with the DOM.
 - [Jest](https://jestjs.io/) - A great testing framework.
@@ -28,6 +28,7 @@
 - [MSW](https://mswjs.io/) - Next generation API mocking.
 - [Prettier](https://prettier.io/) - I can't imagine life without it.
 - [Reach UI](https://reach.tech/) - An accessibility-focused set of easy-to-use and easy-to-style components.
+- [Headless UI](https://headlessui.com) - Completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.
 - [PostCSS](https://postcss.org/) - I only use these plugins: `tailwindcss`, `autoprefixer`, and `postcss-import`
 - [TailwindCSS](https://tailwindcss.com/) - A great way to keep my styling consistent and stay productive.
 - [mdx-bundler](https://github.com/kentcdodds/mdx-bundler) - Compile and bundle your MDX files and their dependencies. FAST.

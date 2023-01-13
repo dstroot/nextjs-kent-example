@@ -26,11 +26,11 @@ export const ThemeSwitch = () => {
 
   return (
     <>
-      <div className="flex justify-between mx-auto bg-gray-300 border-2 border-gray-500 rounded-full dark:border-gray-300 w-28">
+      <div className="flex justify-between mx-auto bg-white border-2 border-gray-500 rounded-full dark:bg-gray-300 dark:border-gray-300 w-28">
         <button
           id="light"
           className={cn(
-            "w-8 h-8 p-2 rounded-full hover:bg-gray-500 hover:text-white",
+            "hover:transition-all w-8 h-8 p-2 rounded-full hover:bg-gray-500 hover:text-white",
             theme === "light" ? "bg-gray-500 text-white" : "text-black"
           )}
           onClick={(e) => setTheme("light")}
@@ -40,7 +40,7 @@ export const ThemeSwitch = () => {
         <button
           id="system"
           className={cn(
-            "w-8 h-8 p-2 rounded-full hover:bg-gray-500 hover:text-white",
+            "hover:transition-all w-8 h-8 p-2 rounded-full hover:bg-gray-500 hover:text-white",
             theme === "system"
               ? "text-white bg-gray-500 dark:text-white"
               : "text-black"
@@ -53,7 +53,7 @@ export const ThemeSwitch = () => {
         <button
           id="dark"
           className={cn(
-            "w-8 h-8 p-2 rounded-full hover:bg-gray-500 dark:hover:text-white hover:text-white",
+            "hover:transition-all w-8 h-8 p-2 rounded-full hover:bg-gray-500 dark:hover:text-white hover:text-white",
             theme === "dark" ? "bg-gray-500 text-white" : "dark:text-black"
           )}
           onClick={(e) => setTheme("dark")}
