@@ -10,8 +10,8 @@ export default function Index() {
   return (
     <>
       <header className="min-h-screen">
-        <div className="mt-16 lg:flex lg:flex-row">
-          <div className="order-last px-10 mb-16 basis-1/2">
+        <div className="flex flex-col items-center lg:mt-16 lg:flex-row">
+          <div className="mb-12 lg:order-last lg:mb-0 basis-1/2">
             {/* fade in and shrink */}
             <m.div
               initial={{ opacity: 0, scale: 1.4 }}
@@ -21,7 +21,7 @@ export default function Index() {
               <Image
                 alt="Illustration of a snowboard"
                 src={snowboard}
-                className="object-contain w-full h-auto max-h-50vh"
+                className="object-contain w-full h-auto max-h-30vh"
                 priority
               />
             </m.div>
@@ -33,7 +33,7 @@ export default function Index() {
               transition={{ delay: 0.25, duration: 0.5 }}
             >
               <h2 className="text-3xl leading-tight text-gray-900 md:text-4xl dark:text-gray-100">
-                Hi, I'm Kent C. Dodds, I'm a full time educator.
+                Hi, I&apos;m Kent C. Dodds, I&apos;m a full time educator.
               </h2>
             </m.div>
             <m.div
@@ -48,6 +48,7 @@ export default function Index() {
             </m.div>
           </div>
         </div>
+
         <div className="hidden pt-12 lg:block">
           <a
             className="inline-flex items-center text-lg font-medium text-left transition cursor-pointer text-primary focus:outline-none"
@@ -120,33 +121,34 @@ export default function Index() {
             <h3 className="mb-4 text-lg font-medium text-black dark:text-white">
               Kindness
             </h3>
-            <p className="max-w-full mb-12 text-lg prose text-secondary prose-light dark:prose-dark">
+            <p className="max-w-full mb-12 text-lg prose dark:prose-invert">
               You can be the smartest and most skilled software engineer in the
-              world, but if you're not kind to those with whom you interact,
-              you'll never reach your full potential and you'll always be
-              chasing the next thing to bring you happiness in life. Be kind.
+              world, but if you&apos;re not kind to those with whom you
+              interact, you&apos;ll never reach your full potential and
+              you&apos;ll always be chasing the next thing to bring you
+              happiness in life. Be kind.
             </p>
             <h3 className="mb-4 text-lg font-medium text-black dark:text-white">
               Share knowledge
             </h3>
-            <p className="max-w-full mb-12 text-lg prose text-secondary prose-light dark:prose-dark">
+            <p className="max-w-full mb-12 text-lg prose dark:prose-invert">
               One of the biggest things that has helped me learn is by
               committing myself to sharing what I know with others. Between
               podcasts, blog posts, talks, and workshops, I force myself into
-              situations where I have to be accountable to those I'm teaching to
-              really know my stuff. And as a result, a lot of people have
-              learned from me as well.
+              situations where I have to be accountable to those I&apos;m
+              teaching to really know my stuff. And as a result, a lot of people
+              have learned from me as well.
             </p>
             <h3 className="mb-4 text-lg font-medium text-black dark:text-white">
               Collaborate with others
             </h3>
-            <p className="max-w-full mb-12 text-lg prose text-secondary prose-light dark:prose-dark">
-              I've worked with a ton of developers in my role as a team member
-              at companies I've worked at as well as in the open source
-              community. I've found it to be invaluable to collaborate well with
-              others. I value giving credit where it is due and celebrating the
-              successes of others with them. We can accomplish much more
-              together than separately.
+            <p className="max-w-full mb-12 text-lg prose dark:prose-invert">
+              I&apos;ve worked with a ton of developers in my role as a team
+              member at companies I&apos;ve worked at as well as in the open
+              source community. I&apos;ve found it to be invaluable to
+              collaborate well with others. I value giving credit where it is
+              due and celebrating the successes of others with them. We can
+              accomplish much more together than separately.
             </p>
           </div>
         </div>

@@ -12,6 +12,14 @@ export const config = {
   statusPage: process.env.STATUS_PAGE_ID ?? "",
 };
 
+export const menu = [
+  { path: "/", name: "Home", new: false },
+  { path: "/about", name: "About", new: false },
+  { path: "/blog", name: "Blog", new: true },
+  { path: "/uses", name: "Uses", new: true },
+  { path: "/credits", name: "Credits", new: true },
+];
+
 export const creditsData = [
   {
     img: "/img/haze.webp",

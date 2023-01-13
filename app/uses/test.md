@@ -3,6 +3,8 @@ hardware I use. I always send them here. This is the stuff I find useful!
 
 > Full disclosure, many links on this site are affiliate links.
 
+---
+
 ### Services
 
 - [Fathom](https://kcd.im/fathom) - My preferred tool for ethical analytics
