@@ -77,7 +77,7 @@ const matter = localFont({
   variable: "--font-matter",
 });
 
-// A provider is necessary to use ThemeProvider in the app directory
+// "Providers" is necessary to use ThemeProvider in the Nextls app directory
 const Providers = ({ children }: { children: React.ReactNode }) => {
   return <ThemeProvider attribute="class">{children}</ThemeProvider>;
 };

@@ -26,7 +26,7 @@ export const creditsData = [
     service: "Video Editing",
     name: "Haze Provinsal",
     description: "Haze did additional video editing.",
-    social: [{ service: "Twitter", url: "https://twitter.com/hazeprovinsal" }],
+    social: [{ icon: "twitter", url: "https://twitter.com/hazeprovinsal" }],
   },
   {
     img: "/img/mohamed.webp",
@@ -35,9 +35,9 @@ export const creditsData = [
     description:
       "All these beautiful illustrations you see on the website were created by Mohamed.",
     social: [
-      { service: "Twitter", url: "https://twitter.com/beastochahin" },
-      { service: "Dribbble", url: "https://dribbble.com/MohChahin" },
-      { service: "Behance", url: "https://www.behance.net/MChahin" },
+      { icon: "twitter", url: "https://twitter.com/beastochahin" },
+      { icon: "dribbble", url: "https://dribbble.com/MohChahin" },
+      { icon: "behance", url: "https://www.behance.net/MChahin" },
     ],
   },
   {
@@ -45,7 +45,7 @@ export const creditsData = [
     service: "Video Production",
     name: "Kevin Winzeler",
     description: "Kevin directed, shot, and edited Kent's bio video.",
-    social: [{ service: "Website", url: "https://www.kevinwinzeler.com/" }],
+    social: [{ icon: "website", url: "https://www.kevinwinzeler.com/" }],
   },
   {
     img: "/img/sean-olszewski.webp",
@@ -54,8 +54,8 @@ export const creditsData = [
     description:
       "Sean worked on the audio for the launch video as well as the Chats with Kent podcast.",
     social: [
-      { service: "GitHub", url: "https://github.com/SeanROlszewski" },
-      { service: "Twitter", url: "https://twitter.com/__chefski__" },
+      { icon: "github", url: "https://github.com/SeanROlszewski" },
+      { icon: "twitter", url: "https://twitter.com/__chefski__" },
     ],
   },
   {
@@ -65,9 +65,9 @@ export const creditsData = [
     description:
       "Daniel managed the redesign project, acting as phone switch operator and document creator.",
     social: [
-      { service: "Website", url: "https://www.daniel.industries/" },
-      { service: "GitHub", url: "https://github.com/dealingwith" },
-      { service: "Twitter", url: "https://twitter.com/hazeprovinsal" },
+      { icon: "website", url: "https://www.daniel.industries/" },
+      { icon: "github", url: "https://github.com/dealingwith" },
+      { icon: "twitter", url: "https://twitter.com/hazeprovinsal" },
     ],
   },
   {
@@ -77,11 +77,11 @@ export const creditsData = [
     description:
       'Jhey worked on making using the site visually interesting by adding motion. In particular he "built the audio recorder visualizer and the parallax experience on the homepage.',
     social: [
-      { service: "Website", url: "https://jhey.dev/links" },
-      { service: "GitHub", url: "https://github.com/jh3" },
-      { service: "Twitter", url: "https://twitter.com/jh3yy" },
-      { service: "Codepen", url: "https://codepen.io/jh3y" },
-      { service: "Twitch", url: "https://twitch.tv/jh3yy" },
+      { icon: "website", url: "https://jhey.dev/links" },
+      { icon: "github", url: "https://github.com/jh3" },
+      { icon: "twitter", url: "https://twitter.com/jh3yy" },
+      { icon: "codepen", url: "https://codepen.io/jh3y" },
+      { icon: "twitch", url: "https://twitch.tv/jh3yy" },
     ],
   },
 ];

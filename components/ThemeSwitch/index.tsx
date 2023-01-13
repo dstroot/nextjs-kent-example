@@ -8,7 +8,7 @@ import { FiSun } from "react-icons/fi";
 import { FiMoon } from "react-icons/fi";
 import { FiSettings } from "react-icons/fi";
 
-// components
+// library
 import { cn } from "../../lib/cn";
 
 export const ThemeSwitch = () => {

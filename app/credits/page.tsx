@@ -5,7 +5,7 @@ import { Card } from "../../components/Card";
 import Image from "next/image";
 
 // data
-import { creditsData } from "../../config/config";
+import { creditsData } from "../../data";
 
 // images
 import trophy from "../../public/img/testing-trophy.webp";

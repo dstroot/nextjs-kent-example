@@ -8,7 +8,7 @@ import { processMarkdown } from "../../lib/processMarkdown";
 import rocket from "../../public/img/rocket.webp";
 
 export default async function Index() {
-  const data = await processMarkdown("/uses/test.md");
+  const data = await processMarkdown("/uses/uses.md");
 
   return (
     <>
