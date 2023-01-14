@@ -29,6 +29,7 @@ export default function Home() {
             </m.div>
           </div>
           <div className="basis-1/2">
+            {/* fade in and slide up */}
             <m.div
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
@@ -39,6 +40,7 @@ export default function Home() {
                 software.
               </h2>
             </m.div>
+            {/* fade in and slide up */}
             <m.div
               className="flex flex-col mt-6 space-y-4 sm:mt-14"
               initial={{ opacity: 0, y: 100 }}
@@ -68,7 +70,7 @@ export default function Home() {
             </m.div>
           </div>
         </div>
-
+        {/* fade in and slide up */}
         <m.div
           className="hidden pt-12 lg:block"
           initial={{ opacity: 0, y: 100 }}
