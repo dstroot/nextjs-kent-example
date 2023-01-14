@@ -63,7 +63,9 @@ You can find all the apps I auto-install when I setup a new MacBook in [my dotfi
 - [Alfred App](https://www.alfredapp.com)
 - [ScriptKit](https://www.scriptkit.com/)
 - [BetterTouchTool](https://folivora.ai)
-- [Divvy](https://mizage.com/divvy)
+
+- [Rectangle](https://rectangleapp.com/)
+
 - [Bartender](https://www.macbartender.com)
 - [Itsycal](https://www.mowglii.com/itsycal)
 - [1Password](https://1password.com)
@@ -73,16 +75,17 @@ You can find all the apps I auto-install when I setup a new MacBook in [my dotfi
 - [Spotify](https://spotify.com)
 - [Slack](https://slack.com)
 - [Discord](https://discord.com)
-- [RunCat](https://kyome.io/runcat/index.html)
+
 - [Todoist](https://todoist.com/r/kent_c_dodds_rcfmfh)
 - [Workflowy](https://workflowy.com/invite/a9f7933.lnx)
 - [Gifski](https://gif.ski)
 - [Zoom.us](https://zoom.us)
-- [sip](https://sipapp.io)
-- [Focus](https://heyfocus.com)
-- [Front](https://frontapp.com)
-- [Qmoji](https://github.com/jaredly/qmoji)
-- [Dropbox](https://dropbox.com)
+- [sip](https://sipapp.io) - Color Picker
+
+- [Front](https://frontapp.com) - Front is a customer communication hub
+- [Qmoji](https://github.com/jaredly/qmoji) - A lightning fast emoji picker for macos, written in swift
+- [System Color Picker](https://sindresorhus.com/system-color-picker) - The familiar color picker supercharged
+
 - [Battery Indicator](https://sindresorhus.com/battery-indicator)
 - [ScreenFlow](https://www.telestream.net/screenflow) - Recording software
 - [OBS](https://obsproject.com) - Live streaming software
