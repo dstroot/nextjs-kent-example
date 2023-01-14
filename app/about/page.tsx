@@ -21,7 +21,7 @@ export default function Index() {
               <Image
                 alt="Illustration of a snowboard"
                 src={snowboard}
-                className="object-contain w-full h-auto max-h-30vh"
+                className="object-contain"
                 priority
               />
             </m.div>
