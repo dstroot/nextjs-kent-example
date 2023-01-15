@@ -1,3 +1,5 @@
+import { AnimatedPerformance } from "../../components/AnimatedPerformance";
+
 export default async function Index() {
   return (
     <header className="">
@@ -7,6 +9,7 @@ export default async function Index() {
       <p className="mt-2 mb-16 text-xl font-medium text-gray-400 dark:text-slate-500">
         Blog, blog, blog...
       </p>
+      <AnimatedPerformance />
     </header>
   );
 }

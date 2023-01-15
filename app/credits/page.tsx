@@ -24,7 +24,7 @@ const Index = () => {
             <Image
               alt="Illustration of a trophy"
               src={trophy}
-              className="object-contain p-6"
+              className="object-contain max-h-[20vh]"
               priority
             />
           </m.div>

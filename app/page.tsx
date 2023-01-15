@@ -23,7 +23,8 @@ export default function Home() {
               <Image
                 alt="Illustration of Kody the Koala standing on a snowboard surrounded by green leaves, a battery, two skies, a one-wheel, a solar panel, and a recycle logo."
                 src={hero}
-                className="object-contain px-8"
+                className="object-contain max-h-[35vh]"
+                // className="object-contain p-8"
                 priority
               />
             </m.div>

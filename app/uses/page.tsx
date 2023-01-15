@@ -13,7 +13,7 @@ export default async function Index() {
   return (
     <>
       <div className="flex flex-col lg:items-center lg:mt-16 lg:flex-row">
-        <div className="mb-12 lg:order-last lg:mb-0 basis-1/3 ">
+        <div className="mb-12 lg:order-last lg:mb-0 basis-1/2 ">
           {/* fade in and shrink */}
           {/* <m.div
             initial={{ opacity: 0, scale: 1.4 }}
@@ -23,12 +23,13 @@ export default async function Index() {
           <Image
             alt="Illustration of a rocket"
             src={rocket}
-            className="w-1/2 mx-auto lg:w-4/5"
+            className="object-contain max-h-[20vh]"
+            //className="w-1/2 mx-auto lg:w-4/5"
             priority
           />
           {/* </m.div> */}
         </div>
-        <div className="basis-2/3">
+        <div className="basis-1/2">
           {/* <m.div
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
