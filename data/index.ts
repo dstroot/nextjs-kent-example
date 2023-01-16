@@ -90,6 +90,16 @@ export const creditsData = [
  * Motion Constants
  */
 
+/* Settings Usage:
+
+<motion.div
+  className="border border-black rounded-full"
+  {...FADE_IN_ANIMATION_SETTINGS}
+>
+  {stuff}
+</div>
+*/
+
 export const FADE_IN_ANIMATION_SETTINGS = {
   initial: { opacity: 0 },
   animate: { opacity: 1 },
@@ -99,8 +109,18 @@ export const FADE_IN_ANIMATION_SETTINGS = {
 export const SHRINK_ANIMATION_SETTINGS = {
   initial: { opacity: 0, scale: 1.4 },
   animate: { opacity: 1, scale: 1 },
-  // transition: { delay: 0, duration: 0.5 },
+  transition: { delay: 0, duration: 0.5 },
 };
+
+/* Variants Usage:
+
+<motion.div
+  className="border border-black rounded-full"
+  variants={FADE_DOWN_ANIMATION_VARIANTS}
+>
+  {stuff}
+</div>
+*/
 
 export const SHRINK_ANIMATION_VARIANTS = {
   hidden: { opacity: 0, scale: 1.4 },

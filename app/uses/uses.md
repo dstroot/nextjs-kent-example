@@ -37,8 +37,8 @@
 ### Editor
 
 - [Visual Studio Code](https://code.visualstudio.com) - Find my settings here: [kcd.im/vscode](https://kcd.im/vscode)
-- [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl&WT.mc_id=twitter-social-sdras) editor theme by [Sarah Drasner](https://twitter.com/sarah_edo)
-- [Dank Mono](https://dank.sh) font by [Phil Plückthun](https://twitter.com/_philpl)
+- [Monokai Dark Soda](https://marketplace.visualstudio.com/items?itemName=AdamCaviness.theme-monokai-dark-soda) editor theme
+- [Hasklig-Light](https://github.com/i-tu/Hasklig) - I used to use Adobe "Source Code Pro" but Hasklig is basically the same but with ligatures.
 
 ### [Chrome Extensions](#chrome-extensions)
 
