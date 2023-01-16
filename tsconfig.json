@@ -7,6 +7,14 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/pages/*": ["pages/*"],
+      "@/lib/*": ["lib/*"],
+      "@/styles/*": ["styles/*"],
+      "@/data/*": ["data/*"]
+    },
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
@@ -21,6 +29,14 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/domUtils.ts.old", "lib/arrayUtils.ts.old", "components/ArrowButtons/index.tsx.old"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "lib/domUtils.ts.old",
+    "lib/arrayUtils.ts.old",
+    "components/ArrowButtons/index.tsx.old"
+  ],
   "exclude": ["node_modules"]
 }
