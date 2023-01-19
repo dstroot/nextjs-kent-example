@@ -1,9 +1,9 @@
-"use client";
+// "use client";
 
 import "../styles/globals.css";
 import localFont from "@next/font/local";
 import { ThemeProvider } from "next-themes";
-import { LazyMotion, domAnimation } from "framer-motion";
+import { LazyMotion, domAnimation } from "@/components/Motion";
 
 // components
 import { NavBar } from "../components/NavBar";
