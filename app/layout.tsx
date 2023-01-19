@@ -1,9 +1,9 @@
-// "use client";
+"use client";
 
 import "../styles/globals.css";
 import localFont from "@next/font/local";
-// import { ThemeProvider } from "next-themes";
 import { Providers } from "../components/Providers";
+import { LazyMotion, domAnimation } from "framer-motion"
 
 // components
 import { NavBar } from "../components/NavBar";
@@ -77,11 +77,6 @@ const matter = localFont({
   variable: "--font-matter",
 });
 
-// // "Providers" is necessary to use ThemeProvider in the Nextls app directory
-// const Providers = ({ children }: { children: React.ReactNode }) => {
-//   return <ThemeProvider attribute="class"><MotionProvider>{children}</MotionProvider></ThemeProvider>;
-// };
-
 export default function RootLayout({
   children,
 }: {
@@ -94,12 +89,14 @@ export default function RootLayout({
         className={`${matter.variable} font-sans bg-white dark:bg-gray-900`}
       >
         <Providers>
+          <LazyMotion features={domAnimation}>
           <div className="container px-4 mx-auto md:px-8 lg:px-16">
             <div className="flex flex-col min-h-screen text-gray-700 dark:text-gray-100">
                 <NavBar />
                 <main className="flex-grow">{children}</main>
             </div>
           </div>
+          </LazyMotion>
         </Providers>
       </body>
     </html>
