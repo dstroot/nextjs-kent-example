@@ -22,9 +22,9 @@ export const Card = ({ person }: { person: Person }) => {
       {/*
         It usually is best practice to wrap images in a div and set height and width with it. HTML treats images as foreign objects so they don't follow the same rules as everything else. A simple div is the best way to work with an img as a normal block level element.
       */}
-      <div className="relative flex-none w-full mb-8 aspect-w-3 aspect-h-4">
+      <div className="relative flex-none w-full mb-8 aspect-[3/4]">
         <Image
-          className="object-cover rounded-lg"
+          className="object-cover overflow-hidden rounded-lg"
           alt={person.name}
           src={person.img}
           fill
