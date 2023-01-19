@@ -6,4 +6,4 @@
 
 import { m } from "framer-motion";
 
-export m;
+export { m };
