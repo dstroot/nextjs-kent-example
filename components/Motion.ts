@@ -8,4 +8,12 @@
 
 import { LazyMotion, domAnimation, m } from "framer-motion";
 
-export {LazyMotion, domAnimation, m};
+export function MotionProvider({ children }) {
+  return (
+    <LazyMotion features={domAnimation}>
+      {children}
+    </LazyMotion>
+  );
+}
+
+export m;
