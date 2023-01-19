@@ -3,7 +3,7 @@
 import "../styles/globals.css";
 import localFont from "@next/font/local";
 import { ThemeProvider } from "next-themes";
-import { LazyMotion, domAnimation } from "@/components/Motion";
+import { MotionProvider } from "@/components/Motion";
 
 // components
 import { NavBar } from "../components/NavBar";
@@ -79,7 +79,7 @@ const matter = localFont({
 
 // "Providers" is necessary to use ThemeProvider in the Nextls app directory
 const Providers = ({ children }: { children: React.ReactNode }) => {
-  return <ThemeProvider attribute="class">{children}</ThemeProvider>;
+  return <ThemeProvider attribute="class"><MotionProvider>{children}</MotionProvider></ThemeProvider>;
 };
 
 export default function RootLayout({
@@ -96,10 +96,10 @@ export default function RootLayout({
         <Providers>
           <div className="container px-4 mx-auto md:px-8 lg:px-16">
             <div className="flex flex-col min-h-screen text-gray-700 dark:text-gray-100">
-              <LazyMotion features={domAnimation}>
+
                 <NavBar />
                 <main className="flex-grow">{children}</main>
-              </LazyMotion>
+     
             </div>
           </div>
         </Providers>
