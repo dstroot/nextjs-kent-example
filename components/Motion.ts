@@ -8,4 +8,4 @@
 
 import { LazyMotion, domAnimation, m } from "framer-motion";
 
-export LazyMotion, domAnimation, m;
+export {LazyMotion, domAnimation, m};
