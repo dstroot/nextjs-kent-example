@@ -1,7 +1,7 @@
-"use client";
+// "use client";
 
 import Image from "next/image";
-import { m } from "framer-motion";
+import { m } from "@/components/Motion";
 
 // images
 import hero from "../public/img/kody-flying_red.webp";
