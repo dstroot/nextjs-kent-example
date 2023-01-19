@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-  /* Menu Underlining */
   .active.underlined:after,
   .underlined:focus:after,
   .underlined:hover:after {

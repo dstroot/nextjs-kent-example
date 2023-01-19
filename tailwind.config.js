@@ -46,6 +46,40 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-matter)", ...fontFamily.sans],
       },
+      typography(theme) {
+        return {
+          DEFAULT: {
+            css: [
+              {
+                "blockquote p:first-of-type::before": false,
+                "blockquote p:last-of-type::after": false,
+                "code::before": false,
+                "code::after": false,
+                li: {
+                  marginTop: "0",
+                  marginBottom: "0",
+                },
+                cite: {
+                  fontSize: "1.0rem",
+                },
+              },
+            ],
+          },
+          lg: {
+            css: [
+              {
+                li: {
+                  marginTop: "0",
+                  marginBottom: "0",
+                },
+                cite: {
+                  fontSize: "1.0rem",
+                },
+              },
+            ],
+          },
+        };
+      },
     },
   },
   plugins: [

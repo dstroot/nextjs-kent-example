@@ -19,12 +19,16 @@ type Social = {
 export const Card = ({ person }: { person: Person }) => {
   return (
     <div className="flex flex-col w-full p-6 bg-gray-200 rounded-lg dark:bg-gray-800">
-      <div className="flex-none w-full mb-8 aspect-w-3 aspect-h-4">
+      {/*
+        It usually is best practice to wrap images in a div and set height and width with it. HTML treats images as foreign objects so they don't follow the same rules as everything else. A simple div is the best way to work with an img as a normal block level element.
+      */}
+      <div className="relative flex-none w-full mb-8 aspect-w-3 aspect-h-4">
         <Image
           className="object-cover rounded-lg"
           alt={person.name}
           src={person.img}
           fill
+          sizes="(max-width: 1024px) 80vw, (max-width: 1280px) 40vw, 30vw"
         />
       </div>
       <div className="flex-auto">

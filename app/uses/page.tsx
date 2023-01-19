@@ -23,7 +23,7 @@ export default async function Index() {
           <Image
             alt="Illustration of a rocket"
             src={rocket}
-            className="object-contain max-h-[20vh]"
+            className="object-contain max-h-[20vh] w-auto"
             //className="w-1/2 mx-auto lg:w-4/5"
             priority
           />
