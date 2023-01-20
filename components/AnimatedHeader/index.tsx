@@ -10,7 +10,7 @@ import {
 } from "@/data/index";
 
 // images
-import rocket from "../public/img/rocket.webp";
+import rocket from "../../public/img/rocket.webp";
 
 export const AnimatedHeader = () => {
   return (
