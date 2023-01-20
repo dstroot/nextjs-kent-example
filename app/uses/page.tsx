@@ -1,7 +1,7 @@
 // "use client"; // necessary for motion to work
 
 import Image from "next/image";
-import { m } from "../../components/Motion";
+// import { m } from "../../components/Motion";
 import { processMarkdown } from "../../lib/processMarkdown";
 
 // images
@@ -15,11 +15,11 @@ export default async function Index() {
       <div className="flex flex-col lg:items-center lg:mt-16 lg:flex-row">
         <div className="mb-12 lg:order-last lg:mb-0 basis-1/2 ">
           {/* fade in and shrink */}
-          <m.div
+          {/* <m.div
             initial={{ opacity: 0, scale: 1.4 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0, duration: 0.5 }}
-          >
+          > */}
           <Image
             alt="Illustration of a rocket"
             src={rocket}
@@ -27,7 +27,7 @@ export default async function Index() {
             //className="w-1/2 mx-auto lg:w-4/5"
             priority
           />
-          </m.div>
+          {/* </m.div> */}
         </div>
         <div className="basis-1/2">
           {/* <m.div
