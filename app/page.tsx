@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 // import { m } from "../components/Motion";
-import { m } from "framer-motion"
+import { m } from "framer-motion";
 
 // images
 import hero from "../public/img/kody-flying_red.webp";
