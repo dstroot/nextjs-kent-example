@@ -3,7 +3,7 @@
 import "../styles/globals.css";
 import localFont from "@next/font/local";
 import { Providers } from "../components/Providers";
-import { LazyMotion, domAnimation } from "framer-motion"
+// import { LazyMotion, domAnimation } from "framer-motion"
 
 // components
 import { NavBar } from "../components/NavBar";
@@ -89,14 +89,14 @@ export default function RootLayout({
         className={`${matter.variable} font-sans bg-white dark:bg-gray-900`}
       >
         <Providers>
-          <LazyMotion features={domAnimation}>
+          {/* <LazyMotion features={domAnimation}> */}
           <div className="container px-4 mx-auto md:px-8 lg:px-16">
             <div className="flex flex-col min-h-screen text-gray-700 dark:text-gray-100">
                 <NavBar />
                 <main className="flex-grow">{children}</main>
             </div>
           </div>
-          </LazyMotion>
+          {/* </LazyMotion> */}
         </Providers>
       </body>
     </html>
