@@ -10,7 +10,7 @@ export default function Index() {
   return (
     <>
       <header className="min-h-screen">
-        <AnHeader
+        <AnimHeader
           image={snowboard}
           text1="Hi, I'm Kent C. Dodds, I'm a full time educator."
           text2="I make the world a better place by teaching people like you how to
