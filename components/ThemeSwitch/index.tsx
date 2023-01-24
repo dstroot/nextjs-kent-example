@@ -4,9 +4,7 @@ import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
 // icons
-import { FiSun } from "react-icons/fi";
-import { FiMoon } from "react-icons/fi";
-import { FiSettings } from "react-icons/fi";
+import { FiSun, FiMoon, FiSettings } from "react-icons/fi";
 
 // library
 import { cn } from "../../lib/cn";

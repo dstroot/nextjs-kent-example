@@ -19,27 +19,28 @@ import {
   BsTwitter,
   BsTwitch,
   BsGithub,
+  BsRssFill,
+  BsYoutube,
 } from "react-icons/bs";
 import { CgTimelapse, CgFramer, CgBrowser } from "react-icons/cg";
 import { FiCodepen } from "react-icons/fi";
 
-type Icons = any;
-
-export const icons: Icons = {
+export const icons = {
   opgp: <GiEarthAfricaEurope />,
   ga: <SiGoogleanalytics />,
   gtm: <SiGoogletagmanager />,
-  mdx: <BsMarkdownFill />,
   timeout: <CgTimelapse />,
   fm: <CgFramer />,
+  bash: <VscTerminalBash />,
+  // technologies
   tailwind: <SiTailwindcss />,
   js: <IoLogoJavascript />,
   react: <IoLogoReact />,
   html: <IoLogoHtml5 />,
   css: <IoLogoCss3 />,
-  bash: <VscTerminalBash />,
+  mdx: <BsMarkdownFill />,
   next: <SiNextdotjs />,
-  //
+  // social
   website: <CgBrowser />,
   github: <BsGithub />,
   twitter: <BsTwitter />,
@@ -47,4 +48,6 @@ export const icons: Icons = {
   twitch: <BsTwitch />,
   dribbble: <BsDribbble />,
   behance: <BsBehance />,
+  rss: <BsRssFill />,
+  youtube: <BsYoutube />,
 };

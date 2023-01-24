@@ -3,6 +3,9 @@ import Image from "next/image";
 // components
 import { icons } from "../Icons";
 
+// types
+import { IconType } from "react-icons/lib";
+
 type Person = {
   name: string;
   service: string;
@@ -50,7 +53,11 @@ export const Card = ({ person }: { person: Person }) => {
                 className="text-2xl text-gray-700 hover:text-gray-400 dark:hover:text-gray-600 dark:text-gray-300"
                 key={index}
               >
-                {icons[service.icon]}
+                {/*
+                If you're getting the TypeScript error '...expression of type string cannot be used to index...'
+                then simply specify that the 'expression of type string' is a key of the type of that object.
+                */}
+                {icons[service.icon as keyof IconType]}
               </a>
             ))
           : null}
