@@ -66,7 +66,6 @@ export const creditsData = [
     social: [
       { icon: "website", url: "https://www.daniel.industries/" },
       { icon: "github", url: "https://github.com/dealingwith" },
-      { icon: "twitter", url: "https://twitter.com/hazeprovinsal" },
     ],
   },
   {

@@ -4,7 +4,7 @@
 import snowboard from "../../public/img/snowboard.webp";
 
 // components
-import { AnHeader } from "@/components/AnHeader";
+import { AnimHeader } from "@/components/AnimHeader";
 
 export default function Index() {
   return (

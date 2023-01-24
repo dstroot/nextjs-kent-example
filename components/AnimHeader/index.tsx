@@ -9,14 +9,15 @@ import {
   SHRINK_ANIMATION_VARIANTS,
 } from "@/data/index";
 
-type StaticImageData = {
-  src: string;
-  height: number;
-  width: number;
-  placeholder?: string;
-};
+// // https://github.com/vercel/next.js/issues/29788
+// type StaticImageData = {
+//   src: string;
+//   height: number;
+//   width: number;
+//   placeholder?: string;
+// };
 
-export const AnHeader = ({
+export const AnimHeader = ({
   image,
   text1,
   text2,
