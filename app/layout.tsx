@@ -4,6 +4,7 @@ import { Providers } from "../components/Providers";
 
 // components
 import { NavBar } from "../components/NavBar";
+import { KentFooter } from "@/components/KentFooter";
 
 /*
 Tailwind font weights:
@@ -91,6 +92,7 @@ export default function RootLayout({
             <div className="flex flex-col min-h-screen text-gray-700 dark:text-gray-100">
               <NavBar />
               <main className="flex-grow">{children}</main>
+              <KentFooter />
             </div>
           </div>
           {/* </LazyMotion> */}
