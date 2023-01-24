@@ -43,6 +43,7 @@ dependencies:
   '@next/font': 13.1.5
   '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.2.4
   '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.4
+  '@types/ms': 0.7.31
   '@types/node': 18.11.18
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
@@ -70,9 +71,6 @@ dependencies:
   tailwindcss: 3.2.4_postcss@8.4.21
   typescript: 4.9.4
   unified: 10.1.2
-
-devDependencies:
-  '@types/ms': 0.7.31
 
 packages:
 
@@ -424,6 +422,7 @@ packages:
 
   /@types/ms/0.7.31:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
+    dev: false
 
   /@types/node/18.11.18:
     resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
