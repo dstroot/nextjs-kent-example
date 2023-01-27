@@ -42,9 +42,9 @@ export const Footer = () => {
 
   return (
     <footer className="border-t border-gray-200 dark:border-gray-600">
-      <div className="flex flex-col mt-8 sm:mt-16 mx-10vw lg:flex-row lg:justify-between">
+      <div className="flex flex-col items-center mt-8 sm:mt-16 mx-10vw lg:items-start lg:flex-row lg:justify-between">
         {/* Block with Kent's name */}
-        <div className="">
+        <div className="mb-6 lg:mb-0">
           <div className="text-xl font-medium text-black md:text-2xl dark:text-white">
             Kent C. Dodds
           </div>
@@ -86,23 +86,25 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-12 md:mt-0">
+        <div className="">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:ml-12 md:gap-6 md:grid-cols-3">
             <div>
               <h2 className="mb-4 text-lg font-medium text-gray-900 dark:text-white">
                 Contact
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
-                <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
+                <li className="py-1 whitespace-nowrap">
                   <a
+                    className="underlined focus:outline-none"
                     href="https://flowbite.com/"
                     aria-label="Read more about our privacy policy"
                   >
                     Flowbite
                   </a>
                 </li>
-                <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
+                <li className="py-1 whitespace-nowrap">
                   <a
+                    className="underlined focus:outline-none"
                     href="https://tailwindcss.com/"
                     aria-label="Read more about our privacy policy"
                   >
@@ -116,16 +118,18 @@ export const Footer = () => {
                 General
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
-                <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
+                <li className="py-1 whitespace-nowrap">
                   <a
+                    className="underlined focus:outline-none"
                     href="https://github.com/themesberg/flowbite"
                     aria-label="Visit the flowbite theme"
                   >
                     Github
                   </a>
                 </li>
-                <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
+                <li className="py-1 whitespace-nowrap">
                   <a
+                    className="underlined focus:outline-none"
                     href="https://discord.gg/4eeurUVvTy"
                     aria-label="Go to our discord"
                   >
@@ -139,13 +143,21 @@ export const Footer = () => {
                 Sitemap
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
-                <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
-                  <a href="#" aria-label="Read more about our privacy policy">
+                <li className="py-1 whitespace-nowrap">
+                  <a
+                    className="underlined focus:outline-none"
+                    href="#"
+                    aria-label="Read more about our privacy policy"
+                  >
                     Privacy Policy
                   </a>
                 </li>
-                <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
-                  <a href="#" aria-label="Read more about our terms">
+                <li className="py-1 whitespace-nowrap">
+                  <a
+                    className="underlined focus:outline-none"
+                    href="#"
+                    aria-label="Read more about our terms"
+                  >
                     Terms &amp; Conditions
                   </a>
                 </li>
