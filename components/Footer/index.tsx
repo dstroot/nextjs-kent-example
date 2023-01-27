@@ -11,10 +11,26 @@ import { IconType } from "react-icons/lib";
 
 export const Footer = () => {
   const social = [
-    { icon: "github", url: "https://github.com/kentcdodds" },
-    { icon: "youtube", url: "https://youtube.com/c/KentCDodds-vids/videos" },
-    { icon: "twitter", url: "https://twitter.com/kentcdodds" },
-    { icon: "rss", url: "https://kentcdodds.com/blog/rss.xml" },
+    {
+      icon: "github",
+      aria: "Visit me on Github",
+      url: "https://github.com/kentcdodds",
+    },
+    {
+      icon: "youtube",
+      aria: "Visit me on YouTube",
+      url: "https://youtube.com/c/KentCDodds-vids/videos",
+    },
+    {
+      icon: "twitter",
+      aria: "Visit me on Twitter",
+      url: "https://twitter.com/kentcdodds",
+    },
+    {
+      icon: "rss",
+      aria: "Get my RSS feed",
+      url: "https://kentcdodds.com/blog/rss.xml",
+    },
   ];
 
   const links = [
@@ -32,7 +48,7 @@ export const Footer = () => {
           <div className="text-xl font-medium text-black md:text-2xl dark:text-white">
             Kent C. Dodds
           </div>
-          <p className="mt-3 text-lg leading-tight text-gray-400 md:text-xl dark:text-slate-400">
+          <p className="mt-3 text-lg leading-tight text-gray-600 dark:text-gray-400 md:text-xl">
             Full time educator making our world better
           </p>
           <div className="flex items-center mt-4">
@@ -41,6 +57,7 @@ export const Footer = () => {
               {social.map((service, index) => (
                 <a
                   href={service.url}
+                  aria-label={service.aria}
                   className="text-2xl text-gray-700 hover:text-gray-400 dark:hover:text-gray-600 dark:text-gray-300"
                   key={index}
                 >
@@ -77,14 +94,17 @@ export const Footer = () => {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
-                  <a href="https://flowbite.com/" className="hover:underline">
+                  <a
+                    href="https://flowbite.com/"
+                    aria-label="Read more about our privacy policy"
+                  >
                     Flowbite
                   </a>
                 </li>
                 <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
                   <a
                     href="https://tailwindcss.com/"
-                    className="hover:underline"
+                    aria-label="Read more about our privacy policy"
                   >
                     Tailwind CSS
                   </a>
@@ -99,7 +119,7 @@ export const Footer = () => {
                 <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
                   <a
                     href="https://github.com/themesberg/flowbite"
-                    className="hover:underline "
+                    aria-label="Visit the flowbite theme"
                   >
                     Github
                   </a>
@@ -107,7 +127,7 @@ export const Footer = () => {
                 <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
                   <a
                     href="https://discord.gg/4eeurUVvTy"
-                    className="hover:underline"
+                    aria-label="Go to our discord"
                   >
                     Discord
                   </a>
@@ -120,12 +140,12 @@ export const Footer = () => {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
-                  <a href="#" className="hover:underline">
+                  <a href="#" aria-label="Read more about our privacy policy">
                     Privacy Policy
                   </a>
                 </li>
                 <li className="underlined whitespace-nowrap hover:text-team-current focus:text-team-current focus:outline-none">
-                  <a href="#" className="hover:underline">
+                  <a href="#" aria-label="Read more about our terms">
                     Terms &amp; Conditions
                   </a>
                 </li>
@@ -135,7 +155,7 @@ export const Footer = () => {
         </div>
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <p className="mb-6 text-sm text-gray-500 dark:text-slate-500">
+      <p className="mb-6 text-sm text-gray-600 dark:text-gray-400">
         © Kent C. Dodds 2023. All rights reserved.
       </p>
     </footer>
