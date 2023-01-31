@@ -11,7 +11,8 @@ export default async function Index() {
       <AnimatedHeader />
 
       <div
-        className="mt-16 prose max-w-none dark:prose-invert prose-a:no-underline"
+        // style={{ animationDelay: "500ms" }}
+        className="mt-16 prose max-w-none dark:prose-invert prose-a:no-underline animate-slide-up-fade"
         dangerouslySetInnerHTML={{ __html: data?.html }}
       />
     </>
