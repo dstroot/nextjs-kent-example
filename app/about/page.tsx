@@ -1,10 +1,14 @@
 // "use client"; // necessary for motion to work
 
+import Image from "next/image";
+
 // images
 import snowboard from "../../public/img/snowboard.webp";
+import happyKent from "../../public/img/happy-snowboarder.webp";
 
 // components
 import { AnimHeader } from "@/components/AnimHeader";
+// import { ScrollAnimation } from "@/components/ScrollAnimation";
 
 export default function Index() {
   return (
@@ -23,15 +27,14 @@ export default function Index() {
         </h2>
         <div className="relative grid grid-cols-4 mx-auto mb-24 gap-x-4 md:grid-cols-8 lg:grid-cols-12 lg:gap-x-6 max-w-7xl lg:mb-64">
           <div className="col-span-full lg:col-span-6 lg:col-start-7">
-            <div className="mb-12 lg:mb-0">
-              {/* <img
-                className="object-cover rounded-lg"
+            <div className="relative h-[35vh] md:h-[60vh] mb-12 overflow-hidden lg:mb-0 rounded-lg">
+              <Image
+                className="object-contain rounded-lg"
                 alt="Kent smiling covered in snow"
-                src="https://res.cloudinary.com/kentcdodds-com/image/upload/c_fill,w_1316,ar_3:4,q_auto,f_auto,g_faces/kent/video-stills/happy-snowboarder"
-                srcset="https://res.cloudinary.com/kentcdodds-com/image/upload/c_fill,w_512,ar_3:4,q_auto,f_auto,g_faces/kent/video-stills/happy-snowboarder 512w, https://res.cloudinary.com/kentcdodds-com/image/upload/c_fill,w_650,ar_3:4,q_auto,f_auto,g_faces/kent/video-stills/happy-snowboarder 650w, https://res.cloudinary.com/kentcdodds-com/image/upload/c_fill,w_840,ar_3:4,q_auto,f_auto,g_faces/kent/video-stills/happy-snowboarder 840w, https://res.cloudinary.com/kentcdodds-com/image/upload/c_fill,w_1024,ar_3:4,q_auto,f_auto,g_faces/kent/video-stills/happy-snowboarder 1024w, https://res.cloudinary.com/kentcdodds-com/image/upload/c_fill,w_1300,ar_3:4,q_auto,f_auto,g_faces/kent/video-stills/happy-snowboarder 1300w, https://res.cloudinary.com/kentcdodds-com/image/upload/c_fill,w_1680,ar_3:4,q_auto,f_auto,g_faces/kent/video-stills/happy-snowboarder 1680w, https://res.cloudinary.com/kentcdodds-com/image/upload/c_fill,w_2000,ar_3:4,q_auto,f_auto,g_faces/kent/video-stills/happy-snowboarder 2000w, https://res.cloudinary.com/kentcdodds-com/image/upload/c_fill,w_2520,ar_3:4,q_auto,f_auto,g_faces/kent/video-stills/happy-snowboarder 2520w"
-                sizes="(max-width: 1023px) 80vw, (min-width: 1024px) and (max-width: 1620px) 40vw, 650px"
-                crossorigin="anonymous"
-              /> */}
+                src={happyKent}
+                fill
+              />
+              {/* <ScrollAnimation image={happyKent} /> */}
             </div>
           </div>
           <div className="col-span-full lg:col-span-5 lg:col-start-1 lg:row-start-1">
