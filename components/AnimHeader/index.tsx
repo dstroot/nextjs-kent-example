@@ -31,7 +31,7 @@ export const AnimHeader = ({
       initial="hidden"
       // whileInView="show"
       animate="show"
-      viewport={{ once: true }}
+      // viewport={{ once: true }}
       variants={{
         hidden: {},
         show: {

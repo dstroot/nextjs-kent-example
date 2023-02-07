@@ -8,7 +8,7 @@ import happyKent from "../../public/img/happy-snowboarder.webp";
 
 // components
 import { AnimHeader } from "@/components/AnimHeader";
-// import { ScrollAnimation } from "@/components/ScrollAnimation";
+import { ScrollAnimation } from "@/components/ScrollAnimation";
 
 export default function Index() {
   return (
@@ -27,15 +27,15 @@ export default function Index() {
         </h2>
         <div className="relative grid grid-cols-4 mx-auto mb-24 gap-x-4 md:grid-cols-8 lg:grid-cols-12 lg:gap-x-6 max-w-7xl lg:mb-64">
           <div className="col-span-full lg:col-span-6 lg:col-start-7">
-            <div className="relative h-[35vh] md:h-[60vh] mb-12 overflow-hidden lg:mb-0 rounded-lg">
-              <Image
+            {/* <div className="relative h-[35vh] md:h-[60vh] mb-12 overflow-hidden lg:mb-0 rounded-lg"> */}
+            {/* <Image
                 className="object-contain rounded-lg"
                 alt="Kent smiling covered in snow"
                 src={happyKent}
                 fill
-              />
-              {/* <ScrollAnimation image={happyKent} /> */}
-            </div>
+              /> */}
+            <ScrollAnimation image={happyKent} />
+            {/* </div> */}
           </div>
           <div className="col-span-full lg:col-span-5 lg:col-start-1 lg:row-start-1">
             <h3 className="mb-4 text-lg font-medium text-black dark:text-white">
