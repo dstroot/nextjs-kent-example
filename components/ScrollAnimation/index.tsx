@@ -4,34 +4,14 @@ import Image from "next/image";
 import { m } from "framer-motion";
 
 // data
-import {
-  FADE_UP_ANIMATION_VARIANTS,
-  SHRINK_ANIMATION_VARIANTS,
-} from "@/data/index";
+import { SHRINK_ANIMATION_VARIANTS } from "@/data/index";
 
-export const ScrollAnimation = ({
-  image,
-}: //   text1,
-//   text2,
-{
-  image: StaticImageData;
-  //   text1: string;
-  //   text2: string;
-}) => {
+/*
+ Framer Motion has a prop you can use for when an element comes into view. Using `whileInView` in place of `animate` will enable your animation to trigger when it enters your view port. Voila! It’s literally that easy. Set your start position with `initial` and end position with `whileInView`. Use `viewport` to manage other props like when it triggers.
+ */
+
+export const ScrollAnimation = ({ image }: { image: StaticImageData }) => {
   return (
-    // <m.div
-    //   initial="hidden"
-    //   whileInView="show"
-    //   viewport={{ once: true, amount: 0.8 }}
-    //   variants={{
-    //     hidden: {},
-    //     show: {
-    //       transition: {
-    //         staggerChildren: 0.15,
-    //       },
-    //     },
-    //   }}
-    // >
     <m.div
       className="relative h-[35vh] md:h-[60vh] mb-12 overflow-hidden lg:mb-0 rounded-lg"
       initial="hidden"
@@ -46,6 +26,5 @@ export const ScrollAnimation = ({
         fill
       />
     </m.div>
-    // </m.div>
   );
 };
