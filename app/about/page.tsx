@@ -1,6 +1,6 @@
 // "use client"; // necessary for motion to work
 
-import Image from "next/image";
+// import Image from "next/image";
 
 // images
 import snowboard from "../../public/img/snowboard.webp";
@@ -9,6 +9,7 @@ import happyKent from "../../public/img/happy-snowboarder.webp";
 // components
 import { AnimHeader } from "@/components/AnimHeader";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
+import { AnimatedCards } from "@/components/AnimatedCards";
 
 export default function Index() {
   return (
@@ -64,6 +65,7 @@ export default function Index() {
             </p>
           </div>
         </div>
+        <AnimatedCards />
       </div>
     </>
   );
