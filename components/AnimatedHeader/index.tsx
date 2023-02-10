@@ -16,9 +16,9 @@ export const AnimatedHeader = () => {
   return (
     <m.div
       initial="hidden"
-      whileInView="show"
+      // whileInView="show"
       animate="show"
-      viewport={{ once: true }}
+      // viewport={{ once: true }}
       variants={{
         hidden: {},
         show: {

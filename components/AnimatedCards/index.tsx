@@ -1,13 +1,13 @@
-// "use client";
+"use client";
 
 import Image from "next/image";
-// import { m } from "framer-motion";
+import { m } from "framer-motion";
 
-// // data
-// import {
-//   FADE_UP_ANIMATION_VARIANTS,
-//   SHRINK_ANIMATION_VARIANTS,
-// } from "@/data/index";
+// data
+import {
+  FADE_RIGHT_ANIMATION_VARIANTS,
+  // FADE_LEFT_ANIMATION_VARIANTS,
+} from "@/data/index";
 
 const cards = [
   {
@@ -30,11 +30,25 @@ const cards = [
 
 export const AnimatedCards = () => {
   return (
-    <>
+    <m.div
+      className="grid grid-cols-1 gap-16 mb-16 md:grid-cols-2 lg:gap-20"
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.5 }}
+      variants={{
+        hidden: {},
+        show: {
+          transition: {
+            staggerChildren: 0.25,
+          },
+        },
+      }}
+    >
       {cards.map((card) => (
-        <div
+        <m.div
           key={card.id}
-          className="max-w-sm mb-16 overflow-hidden rounded shadow-lg"
+          className="max-w-md overflow-hidden rounded shadow-lg"
+          variants={FADE_RIGHT_ANIMATION_VARIANTS}
         >
           <div className="relative w-full h-48 overflow-hidden">
             <Image
@@ -62,8 +76,8 @@ export const AnimatedCards = () => {
               #winter
             </span>
           </div>
-        </div>
+        </m.div>
       ))}
-    </>
+    </m.div>
   );
 };
