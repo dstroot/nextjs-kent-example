@@ -58,32 +58,21 @@
 You can find all the apps I auto-install when I setup a new MacBook in [my dotfiles `.macos` script](https://github.com/kentcdodds/dotfiles/blob/master/.macos). Here are a few highlights (in no particular order):
 
 - [Google Chrome](https://www.google.com/chrome)
-- [Alfred App](https://www.alfredapp.com)
-- [ScriptKit](https://www.scriptkit.com/)
-- [BetterTouchTool](https://folivora.ai)
-
-- [Rectangle](https://rectangleapp.com/)
-
-- [Bartender](https://www.macbartender.com)
-- [Itsycal](https://www.mowglii.com/itsycal)
-- [1Password](https://1password.com)
-- [Centered](https://centered.app) - (Helps keep me on task when I really need to focus. It's free, and you can pay for more features. Use the discount code `EPICFLOW` to get 50% off your first year of premium.)
-- [Dash](https://kapeli.com/dash)
+- [Rectangle](https://rectangleapp.com/) - Move and resize windows in macOS using keyboard shortcuts or snap areas
+- [Bitwarden](https://bitwarden.com/) - Open source password management for individuals and families
+- [Dash](https://kapeli.com/dash) - Dash gives your Mac instant offline access to 200+ API documentation sets
 - [Terminal.app](<https://en.wikipedia.org/wiki/Terminal_(macOS)>)
 - [Spotify](https://spotify.com)
 - [Slack](https://slack.com)
 - [Discord](https://discord.com)
-
 - [Todoist](https://todoist.com/r/kent_c_dodds_rcfmfh)
 - [Workflowy](https://workflowy.com/invite/a9f7933.lnx)
 - [Gifski](https://gif.ski)
 - [Zoom.us](https://zoom.us)
 - [sip](https://sipapp.io) - Color Picker
-
 - [Front](https://frontapp.com) - Front is a customer communication hub
 - [Qmoji](https://github.com/jaredly/qmoji) - A lightning fast emoji picker for macos, written in swift
 - [System Color Picker](https://sindresorhus.com/system-color-picker) - The familiar color picker supercharged
-
 - [Battery Indicator](https://sindresorhus.com/battery-indicator)
 - [ScreenFlow](https://www.telestream.net/screenflow) - Recording software
 - [OBS](https://obsproject.com) - Live streaming software
@@ -165,32 +154,7 @@ You can also look at a (pretty bad) [photosphere of my office on Google Photos](
 - [Audient EVO 4 USB Audio Interface](https://amazon.com/dp/B084BGC5LR?tag=kentcdodds-20) - This is the last place my microphone audio goes before it heads into my computer. (I used to use this and it was pretty good, but a bit quiet: [Pyle 2-Channel Audio Mixer](https://amazon.com/dp/B003CY6OHY/?tag=kentcdodds-20))
 - [Audio-Technica Condenser Microphone (AT899)](https://amazon.com/dp/B000ZLQ3Y6?tag=kentcdodds-20) - I use this sometimes if I don't want a microphone in the shot when doing video of my face.
 
-#### [Sound Proofing](#sound-proofing)
 
-[Watch me put this together](https://youtu.be/AwLj4qCyJ7E)
-
-- [50 Pack Acoustic Panels 1" X 12" X 12", Black](https://amazon.com/dp/B07VDTR22R/?tag=kentcdodds-20) - Attached to cut versions of yard signs
-- [10 Blank Signs White 18"x24"](https://amazon.com/dp/B07S952JN9/?tag=kentcdodds-20)
-- [Gorilla Glue](https://amazon.com/dp/B07MWRV574/?tag=kentcdodds-20)
-- [Command 4 lb White Picture Hanging Strips, Small](https://amazon.com/dp/B007RKFBT6/?tag=kentcdodds-20)
-- [VersiFold Acoustical Room Divider](https://www.versare.com/shop/portable-partitions/acoustical-room-dividers/versifold-acoustical-room-divider.html) - I don't put this up very often, but I do have it in case I need a little extra sound proofing or I want to do a video and not have any distractions behind me.
-
-### [On the Go](#on-the-go)
-
-- [KOPACK Lightweight Laptop Backpack](https://amazon.com/dp/B01FFA730Y/?tag=kentcdodds-20) - I love this backpack I bought another one as soon as the first was destroyed [in a onewheel accident](https://twitter.com/kentcdodds/status/1182010394300170240).
-- [Power Bank 20100mAh Portable Charger](https://amazon.com/dp/B00X0GGLWM/?tag=kentcdodds-20) - This sits in my backpack and I can charge all my devices with it.
-- [USB C Hub Multiport Adapter: Ethernet, HDMI, USB-3 and USB-C](https://amazon.com/dp/B07DW4TFJP/?tag=kentcdodds-20) - This stays in my backpack and I use it often when speaking at events or visiting people's offices.
-- [Kensington Wireless Presenter with Red Laser Pointer](https://amazon.com/dp/B000FPGP4U/?tag=kentcdodds-20) - I've had this for years. I don't always use it, but when I need a laser pointer/wireless presenter tool, I'm glad I have it!
-- [Mini DisplayPort (Thunderbolt) to VGA Adapter](https://amazon.com/dp/B00NH13I08/?tag=kentcdodds-20) - Wish I didn't need to just keep this around, but I do.
-
-### [Home Stuff](#home-stuff)
-
-- [Yootech \[2 Pack\] Wireless Charger](https://amazon.com/dp/B07MSFFDNP/?tag=kentcdodds-20) - Where I put my phone on my desk. The other one goes on my nightstand.
-- [AmpliFi HD WiFi System by Ubiquiti Labs](https://amazon.com/dp/B01L9O08PW/?tag=kentcdodds-20) - This thing gives super fast internet speed, a huge range of connectivity, and the range extenders are fantastic. I'll never bother with anything else again.
-- [Synology 5 bay NAS DiskStation DS1019+](https://amazon.com/dp/B07NF9XDWG/?tag=kentcdodds-20) - I use this to store all of my pictures/movies/music/etc. It's amazing.
-- [Seagate IronWolf 3.84TB NAS SSD Internal Solid State Drive](https://amazon.com/dp/B07R1P55GR/?tag=kentcdodds-20) - These are phenomenal SSDs for the NAS.
-- [CORSAIR FORCE Series MP300 240GB NVMe PCIe M.2 SSD Solid State Storage](https://amazon.com/dp/B07D98DZ38/?tag=kentcdodds-20) - I bought two of these when I had the HDDs. Now that I have SSDs I'm not sure they're necessary.
-- [Seagate IronWolf 10TB NAS Internal Hard Drive HDD](https://amazon.com/dp/B07H241VK4/?tag=kentcdodds-20) - The SSDs are _super_ expensive, so if you want a cheaper alternative (and more space) get these. I swapped these for the SSDs because they make a little mechanical clicking noise as the arms move around the disk and we could literally hear it all over the house (we have pretty sensitive hearing) and it was keeping us up at night. If you don't think that'll bother you or you have a better sound-proofing strategy, then grab these.
 
 ### [Podcasts](#podcasts)
 
@@ -246,12 +210,3 @@ Here are the newsletters I subscribe to:
 - [Node Weekly](https://nodeweekly.com/)
 - [React Status](https://react.statuscode.com/)
 - [Bytes](https://bytes.dev/)
-
-### [Other](#other)
-
-- For my window drapes: [Bracket](https://amazon.com/dp/B00069C904/?tag=kentcdodds-20), [Light Blocking Curtains](https://amazon.com/dp/B00PF72K38/?tag=kentcdodds-20), [Window Curtain Rod](https://amazon.com/dp/B001LTXRDG/?tag=kentcdodds-20)
-- [Self Drilling Drywall Plastic Anchors with Screws Kit](https://amazon.com/dp/B01FCZ8I3I/?tag=kentcdodds-20) - I used this to mount several of the things on the walls and ceilings in my office. They're solid, and you can screw them out if you make a mistake (which I wish I could say I've never needed to do).
-- [Double Gallery Picture Frame](https://amazon.com/dp/B00EC9RIDW/?tag=kentcdodds-20) - Great for the kids to be able to decorate my office without coloring on the walls (there's also a [single frame](https://amazon.com/dp/B00EC9RIKU/?tag=kentcdodds-20)).
-- [KiwiCo](https://kcd.im/kiwico) - A great way to give the kids something interesting and educational to do.
-- [Privacy.com](https://kcd.im/privacy) - A credit card system that I use extensively to pay for things online.
-- [Tesla Cars/Solar](https://kcd.im/tesla) - I have two Teslas, a Tesla Solar Roof, and Tesla Powerwalls. Fantastic products, every one of them.
