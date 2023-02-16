@@ -127,35 +127,6 @@ You can also look at a (pretty bad) [photosphere of my office on Google Photos](
 - [Floortex Cleartex UltiMat Polycarbonate Chair Mat](https://amazon.com/dp/B000V4PPV4/?tag=kentcdodds-20) - My chair rolls around on this.
 - [Imprint CumulusPRO Commercial Standing Desk Anti-Fatigue Mat](https://amazon.com/dp/B005UA2WO2/?tag=kentcdodds-20) - When I'm standing I put this on top of the chair mat. Otherwise I slide it to the side of my desk.
 
-#### [Camera](#camera)
-
-- [Arkon Camera Wall Mount](https://amazon.com/dp/B00CMLX1O2/?tag=kentcdodds-20) - To mount my camera to the wall. This is really awesome.
-- [Sony SEL-20F28 E-Mount 20mm F2.8 Prime Fixed Lens](https://amazon.com/dp/B00B20OYUO/?tag=kentcdodds-20) - A pancake lens with a nice balance of weight, size, aperture, and angle
-- [Sony Alpha a6400 Mirrorless Digital Camera](https://amazon.com/dp/B07VGB9BBH?tag=kentcdodds-20)
-- [Sony ACPW20 AC Adaptor](https://amazon.com/dp/B003OBUJD0?tag=kentcdodds-20) - Constant power for the camera
-- [Blackmagic Design Web Presenter](https://amazon.com/dp/B01N5YEI0O?tag=kentcdodds-20) - To make my Sony Camera work like a regular USB Webcam
-- [Hosa PWC-143 IEC C13 to NEMA 5-15P Power Cord, 3 Feet](https://amazon.com/dp/B000068OA4/?tag=kentcdodds-20) - Power cable for the Blackmagic
-- [AmazonBasics USB 2.0 Printer Cable - A-Male to B-Male Cord - 6 Feet](https://amazon.com/dp/B00NH11KIK?tag=kentcdodds-20) - Connect the black magic to my computer
-- [BlueRigger Micro HDMI to HDMI Cable](https://amazon.com/dp/B0060AU5MW?tag=kentcdodds-20) - The HDMI cable to connect the camera to the black magic thing
-
-#### [Lighting](#lighting)
-
-- [Fotodiox Pro FlapJack Studio LED Light](https://amazon.com/dp/B013TSPWXO/?tag=kentcdodds-20) - The light that shines in my face
-- [Neewer Triangle Wall Mounting Boom Arm](https://amazon.com/dp/B06XWSFX6D/?tag=kentcdodds-20) - This is what I have the light mounted on. I'm able to push the light out of the way when I don't need it and I don't have anything cluttering the floor making my room nice and clean. I love this.
-- [Manfrotto 156BLB 4-Feet Aluminum Mini Kit Stand with 015 Top (Black)](https://amazon.com/dp/B001D2GQ8Y/?tag=kentcdodds-20) - The stand I had for the light before I got the wall mount.
-- [Draper Silhouette M - 70" H x 96" W Manual Pull-Down Chroma Key Green Screen](https://www.projectorscreenstore.com/Projector-Screens/Draper-Silhouette-M-70-H-x-96-W-Manual-Pull-Down-Green-Screen-AV-Format-Chroma-Key-Green-V20207KG-79035.html) - This is my green screen that's mounted to the ceiling.
-- [Bladelight (36")](https://www.flolight.com/bladelight-1/) - These light up the green screen super well. They're mounted inside the ceiling.
-
-#### [Microphone](#microphone)
-
-- [Shure SM7B Cardioid Dynamic Microphone](https://amazon.com/dp/B0002E4Z8M/?tag=kentcdodds-20) - This is a super nice microphone and gives fantastic quality. I see it in professional studios all the time.
-- [Blue Microphones Compass Premium Tube-Style Microphone Broadcast Boom Arm With Internal Springs, Desktop Clamp and Built-in Cable Management](https://amazon.com/dp/B078MLBGRM/?tag=kentcdodds-20) - This is attached to my bookshelf (not my desk!!) and reaches in front of my left monitor to get to my mouth. I used to use the [Heil Sound Microphone Boom](https://amazon.com/dp/B004PJ414I/?tag=kentcdodds-20), but this one's much more stable.
-- [Cloudlifter](https://amazon.com/dp/B004MQSV04/?tag=kentcdodds-20) - Boosts the power of my passive microphone. It's silly easy to use.
-- [Audient EVO 4 USB Audio Interface](https://amazon.com/dp/B084BGC5LR?tag=kentcdodds-20) - This is the last place my microphone audio goes before it heads into my computer. (I used to use this and it was pretty good, but a bit quiet: [Pyle 2-Channel Audio Mixer](https://amazon.com/dp/B003CY6OHY/?tag=kentcdodds-20))
-- [Audio-Technica Condenser Microphone (AT899)](https://amazon.com/dp/B000ZLQ3Y6?tag=kentcdodds-20) - I use this sometimes if I don't want a microphone in the shot when doing video of my face.
-
-
-
 ### [Podcasts](#podcasts)
 
 Here are some podcasts I "use" to keep me informed and entertained while I drive, clean, and ride my onewheel.
