@@ -1,4 +1,4 @@
-> Full disclosure, many links on this site are affiliate links.
+> Full disclosure, many links on this site are affiliate links. If you are intersted in buying any of these products please use the link below and support this site. Thank you!
 
 ---
 
@@ -92,40 +92,6 @@ Again, you can find everything that I auto-install when I setup a new MacBook in
 - [serve](https://npm.im/serve)
 - [npm-quick-run](https://npm.im/npm-quick-run)
 - [npm-check-updates](https://npm.im/npm-check-updates)
-
-### [My Office](#my-office)
-
-You can also look at a (pretty bad) [photosphere of my office on Google Photos](https://photos.app.goo.gl/MeDfjFhfqdnU9Dq38)
-
-[Watch the office tour](https://www.youtube.com/watch?v=N3wY9kNnmQA):
-
-#### [Desk Setup](#desk-setup)
-
-- [MacBook Pro (16-inch, 2021)](https://www.apple.com/macbook-pro-14-and-16/) - My laptop. More stats:
-  - Processor: 10 Core Apple M1 Max
-  - Graphics: 32 Core Apple GPU
-  - Memory: 64 GB
-  - Storage: 2TB SSD
-- My desk is a custom made standing desk (my wife made it for me for a Christmas present) (so sorry, no Amazon link).
-- [Homelegance Daria 5-Tier Bookcase, 26" W, Brown](https://amazon.com/dp/B00V4LYKEQ?tag=kentcdodds-20) - This is where I put all my auxiliary equipment
-- [OWC Thunderbolt 3 Dock](https://amazon.com/dp/B07JMH6BSY?tag=kentcdodds-20) - is the main box on my bookcase all wires ultimately come together before going into my laptop.
-- [Cable Matters Thunderbolt 3 Cable](https://amazon.com/dp/B01H5QF2TK/?tag=kentcdodds-20) - This connects my laptop to the dock. It's the only cable to goes into my laptop.
-- [LG 27MD5KL-B 27 Inch Ultrafine 5K (5120 x 2880) IPS Display with macOS Compatibility, DCI-P3 99% Color Gamut and Thunderbolt 3 Port, Black](https://amazon.com/dp/B07XV9NQSJ?tag=kentcdodds-20) - I have 2 of these
-- [Cable Matters Thunderbolt 3 to Dual DisplayPort Adapter](https://amazon.com/dp/B01DYFI1OE?tag=kentcdodds-20) - This connects the monitors to the dock.
-- [AmazonBasics Mini DisplayPort to DisplayPort Display Cable - 3 Feet](https://amazon.com/dp/B013PWQN1Y/?tag=kentcdodds-20) - I have two of these that connect my monitors to the dual DisplayPort adapter.
-- [AmazonBasics AA Rechargeable Batteries](https://amazon.com/dp/B007B9NV8Q/?tag=kentcdodds-20) - I use this for my wireless keyboard and trackpad.
-- [AmazonBasics Ni-MH AA & AAA Battery Charger With USB Port for Rechargeable Batteries](https://amazon.com/dp/B00TOVTZ7K/?tag=kentcdodds-20) - How I recharge those batteries.
-- [Apple Magic Keyboard](https://amazon.com/dp/B016QO64FI/?tag=kentcdodds-20) - This isn't actually the one I have. The one I have is an older edition. But if I were buying a new one, this is the one I'd buy.
-- [Grifiti Slim Wrist Pad for Apple Wireless Keyboard](https://amazon.com/dp/B00AJE771W/?tag=kentcdodds-20) - This goes in front of my keyboard and gives my wrists a little support.
-- [Apple Magic Trackpad 2](https://amazon.com/dp/B016QO5YWC/?tag=kentcdodds-20) - This isn't actually the one I have. The one I have is an older edition. But if I were buying a new one, this is the one I'd buy.
-- [Grifiti Slim Wrist Pad for Magic Trackpad](https://amazon.com/dp/B00AJCSIGM/?tag=kentcdodds-20) - This goes under my trackpad and gives my wrist a little support.
-- [Bose Companion 2 Series III Multimedia Speakers](https://amazon.com/dp/B00CD1PTF0/?tag=kentcdodds-20) - My computer speakers that sit on either side of my desk.
-- [Mediabridge 3.5mm Male to Male Right Angle Stereo Audio Cable (8 Feet)](https://amazon.com/dp/B00OV41XAM/?tag=kentcdodds-20) - This connects my speakers to my dock
-- [Audio-Technica ATH-M50x Headphones](https://amazon.com/dp/B00HVLUR86/?tag=kentcdodds-20) - I don't use these often (the joys of a home office) but when I do, they're fantastic.
-- [AUKEY Powered USB Hub](https://amazon.com/dp/B01LRW956O/?tag=kentcdodds-20) - I have more USB ports than I know what to do with now. And it's great.
-- [Safco Products Vue Mesh Extended-Height Chair 3395BL](https://amazon.com/dp/B003L20OZ0/?tag=kentcdodds-20) - This is my chair. It's not terrific, but it's hard to find a chair that it's both comfortable and suited for a standing desk. (You'll probably want this [Safco Products Loop Arms Set](https://amazon.com/dp/B003L20OZU/?tag=kentcdodds-20))
-- [Floortex Cleartex UltiMat Polycarbonate Chair Mat](https://amazon.com/dp/B000V4PPV4/?tag=kentcdodds-20) - My chair rolls around on this.
-- [Imprint CumulusPRO Commercial Standing Desk Anti-Fatigue Mat](https://amazon.com/dp/B005UA2WO2/?tag=kentcdodds-20) - When I'm standing I put this on top of the chair mat. Otherwise I slide it to the side of my desk.
 
 ### [Podcasts](#podcasts)
 

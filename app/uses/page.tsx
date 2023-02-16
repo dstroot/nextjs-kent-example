@@ -12,7 +12,7 @@ export default async function Index() {
 
       <div
         // style={{ animationDelay: "500ms" }}
-        className="mt-16 prose max-w-none dark:prose-invert prose-a:no-underline animate-slide-up-fade"
+        className="mt-16 mb-16 prose max-w-none dark:prose-invert prose-a:no-underline animate-slide-up-fade"
         dangerouslySetInnerHTML={{ __html: data?.html }}
       />
     </>
