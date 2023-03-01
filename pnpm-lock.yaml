@@ -4,7 +4,6 @@ specifiers:
   '@headlessui/react': ^1.7.12
   '@headlessui/tailwindcss': ^0.1.2
   '@jsdevtools/rehype-toc': ^3.0.2
-  '@next/font': 13.2.3
   '@react-icons/all-files': ^4.1.0
   '@tailwindcss/aspect-ratio': ^0.4.2
   '@tailwindcss/typography': ^0.5.9
@@ -41,7 +40,6 @@ dependencies:
   '@headlessui/react': 1.7.12_biqbaboplfbrettd7655fr4n2y
   '@headlessui/tailwindcss': 0.1.2_tailwindcss@3.2.7
   '@jsdevtools/rehype-toc': 3.0.2
-  '@next/font': 13.2.3
   '@react-icons/all-files': 4.1.0_react@18.2.0
   '@tailwindcss/aspect-ratio': 0.4.2_tailwindcss@3.2.7
   '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.7
@@ -172,10 +170,6 @@ packages:
     resolution: {integrity: sha512-QmMPItnU7VeojI1KnuwL9SLFWEwmaNHNlnOGpoTwdLoSiP9sc8KYiAHWEc4/44L+cAdCxcZYvn7frcRNP5l84Q==}
     dependencies:
       glob: 7.1.7
-    dev: false
-
-  /@next/font/13.2.3:
-    resolution: {integrity: sha512-7EHzk0f7FVYICLUZTpyPk93IfcTUao++Xt1Sgb+Zk5dVOCYHabqLtlF5ywSoXIqyFlo0qlshEBxsrzHAGTWkDw==}
     dev: false
 
   /@next/swc-android-arm-eabi/13.2.3:

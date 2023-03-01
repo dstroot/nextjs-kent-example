@@ -13,7 +13,6 @@
     "@headlessui/react": "^1.7.12",
     "@headlessui/tailwindcss": "^0.1.2",
     "@jsdevtools/rehype-toc": "^3.0.2",
-    "@next/font": "13.2.3",
     "@react-icons/all-files": "^4.1.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/typography": "^0.5.9",
