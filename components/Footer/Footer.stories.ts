@@ -23,4 +23,4 @@ type Story = StoryObj<typeof Footer>;
 //   },
 // };
 
-export const LoggedOut: Story = {};
+export const Primary: Story = {};
