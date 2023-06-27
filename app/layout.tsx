@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import localFont from "next/font/local";
 import { Providers } from "../components/Providers";
+import Script from 'next/script'
 
 // components
 import { NavBar } from "../components/NavBar";
@@ -97,6 +98,8 @@ export default function RootLayout({
           </div>
           {/* </LazyMotion> */}
         </Providers>
+        <Script src="https://cdn.botpress.cloud/webchat/v0/inject.js" strategy="afterInteractive"/>
+        <Script src="https://mediafiles.botpress.cloud/10b57620-20b1-4ec9-aa5f-a4d5c2e252a9/webchat/config.js" strategy="lazyOnload" defer />
       </body>
     </html>
   );
