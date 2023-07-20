@@ -1,5 +1,5 @@
 import fs from "fs";
-import toc from "@jsdevtools/rehype-toc";
+// import toc from "@jsdevtools/rehype-toc";
 import { join } from "path";
 import matter from "gray-matter";
 import { unified } from "unified";
@@ -20,9 +20,9 @@ export async function processMarkdown(name: string) {
   // process the content to HTML
   const html = await unified()
     .use(remarkParse)
-    // use remark plugins here v
+    // use remark plugins below
     .use(remarkRehype)
-    // use rehype plugins here v
+    // use rehype plugins below
     .use(rehypeFormat)
     .use(rehypeSlug)
     .use(rehypeAutolinkHeadings, { behavior: "wrap" })
